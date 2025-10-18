@@ -1,0 +1,3393 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MainMenu",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "leftSideBackgroundImage",
+            "Width": 50,
+            "Height": 272,
+            "RelativeFilename": "MainMenu\\menu_stage_stretch_left_side.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "rightSideBackgroundImage",
+            "X": 430,
+            "Width": 50,
+            "Height": 272,
+            "RelativeFilename": "MainMenu\\menu_stage_stretch_right_side.png"
+          },
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer",
+            "Width": 480,
+            "Height": 272,
+            "SwipeCutoff": 50,
+            "ShowPageIndicator": true,
+            "PageIndicatorX": 214,
+            "PageIndicatorY": 260,
+            "IndicatorImageNormal": "MainMenu\\screen_swipe_dots_inactive.png",
+            "IndicatorImageHighlight": "MainMenu\\screen_swipe_dots_active.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "CustomControlsPage",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "CustomControlsPage",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "customControlsPageImage",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "MainMenu\\menu_demo_screen_02.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "customControlsPageButton",
+                    "X": 320,
+                    "Y": 140,
+                    "Width": 134,
+                    "Height": 55,
+                    "Pressed": "MainMenu\\demo_button_01_pressed.png",
+                    "Released": "MainMenu\\demo_button_01.png"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "EasingEquationsPage",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "easingEquationsPageImage",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "MainMenu\\menu_demo_screen_03.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "easingEquationsPageButton",
+                    "X": 320,
+                    "Y": 140,
+                    "Width": 134,
+                    "Height": 55,
+                    "Pressed": "MainMenu\\demo_button_02_03_pressed.png",
+                    "Released": "MainMenu\\demo_button_02_03.png"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "ProductPresenterPage",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "productPresenterPageImage",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "MainMenu\\menu_demo_screen_04.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "productPresenterPageButton",
+                    "X": 320,
+                    "Y": 140,
+                    "Width": 134,
+                    "Height": 55,
+                    "Pressed": "MainMenu\\demo_button_04_pressed.png",
+                    "Released": "MainMenu\\demo_button_04.png"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "GraphPage",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "GraphPageImage",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "MainMenu\\menu_demo_screen_05.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "GraphPageButton",
+                    "X": 320,
+                    "Y": 140,
+                    "Width": 134,
+                    "Height": 55,
+                    "Pressed": "MainMenu\\demo_button_05_06_pressed.png",
+                    "Released": "MainMenu\\demo_button_05_06.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mcuLoad",
+            "X": 370,
+            "Y": 10,
+            "Width": 96,
+            "Height": 20,
+            "CustomContainerDefinitionName": "McuLoadWidget"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "logoBar",
+            "Y": 272,
+            "Width": 480,
+            "Height": 48,
+            "CustomContainerDefinitionName": "LogoBar"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "customControlsPageButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "customControlsPageButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "CustomControls"
+            }
+          },
+          {
+            "InteractionName": "easingEquationsPageButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "easingEquationsPageButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "EasingEquation"
+            }
+          },
+          {
+            "InteractionName": "productPresenterPageButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "productPresenterPageButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "ProductPresenter"
+            }
+          },
+          {
+            "InteractionName": "graphPageButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "GraphPageButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Graph"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "CustomControls",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "menuBackgroundImage",
+            "Width": 100,
+            "Height": 272,
+            "RelativeFilename": "CustomControls\\controls_menu_background.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "backgroundImage",
+            "X": 100,
+            "Width": 380,
+            "Height": 272,
+            "RelativeFilename": "CustomControls\\controls_background.png"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "menuScrollWheel",
+            "X": 19,
+            "Y": 56,
+            "Width": 60,
+            "Height": 208,
+            "LockPosition": true,
+            "SelectedItemOffset": 50,
+            "ItemTemplateName": "MenuIconCustomContainer",
+            "NumberofItems": 4,
+            "Easing": "Expo",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "Button",
+            "Name": "menuUpButton",
+            "Width": 96,
+            "Height": 56,
+            "Pressed": "CustomControls\\control_menu_arrow_up_pressed.png",
+            "Released": "CustomControls\\control_menu_arrow_up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "menuDownButton",
+            "Y": 216,
+            "Width": 96,
+            "Height": 56,
+            "Pressed": "CustomControls\\control_menu_arrow_down_pressed.png",
+            "Released": "CustomControls\\control_menu_arrow_down.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "mainMenuButton",
+            "X": 417,
+            "Y": 2,
+            "Width": 60,
+            "Height": 58,
+            "Pressed": "CustomControls\\control_menu_button_pressed.png",
+            "Released": "CustomControls\\control_menu_button.png"
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge",
+            "X": 165,
+            "Y": 12,
+            "Width": 248,
+            "Height": 248,
+            "LockPosition": true,
+            "FileNameBackground": "CustomControls\\gauge_background.png",
+            "RotationCenterX": 125.0,
+            "RotationCenterY": 125.0,
+            "StartAngle": -119.0,
+            "EndAngle": 119.0,
+            "RangeMax": 100.0,
+            "UseAnimation": true,
+            "Easing": "Cubic",
+            "EasingOption": "Out",
+            "FileNameNeedle": "CustomControls\\needle.png",
+            "NeedleRotationCenterX": 8.0,
+            "NeedleRotationCenterY": 65.0,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "ArcCapStyle": "Butt"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "threeWayProgressCustomContainer",
+            "X": 166,
+            "Y": 6,
+            "Width": 248,
+            "Height": 261,
+            "Visible": false,
+            "LockPosition": true,
+            "CustomContainerDefinitionName": "ThreeWayProgressCustomContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "percentageBarCustomContainer",
+            "X": 166,
+            "Y": 6,
+            "Width": 248,
+            "Height": 261,
+            "Visible": false,
+            "CustomContainerDefinitionName": "PercentageBarCustomContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "datePickerCustomContainer",
+            "X": 140,
+            "Y": 46,
+            "Width": 300,
+            "Height": 180,
+            "Visible": false,
+            "CustomContainerDefinitionName": "DatePickerCustomContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mcuLoad",
+            "X": 374,
+            "Y": 240,
+            "Width": 96,
+            "Height": 20,
+            "CustomContainerDefinitionName": "McuLoadWidget"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "messageTextArea",
+            "X": 104,
+            "Y": 6,
+            "Width": 105,
+            "Height": 36,
+            "TextId": "__SingleUse_Q289",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 214,
+              "Green": 214,
+              "Blue": 214
+            },
+            "Alpha": 0
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "logoBar",
+            "Y": 272,
+            "Width": 480,
+            "Height": 48,
+            "CustomContainerDefinitionName": "LogoBar"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "menuUpButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuUpButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "scrollMenuUp"
+            }
+          },
+          {
+            "InteractionName": "menuDownButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuDownButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "scrollMenuDown"
+            }
+          },
+          {
+            "InteractionName": "mainMenuClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mainMenuButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainMenu"
+            }
+          },
+          {
+            "InteractionName": "ShowTheMessage",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "ThreeWayProgressCustomContainer allProgressesDone happens",
+              "TriggerComponent": "threeWayProgressCustomContainer"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 100,
+              "ActionComponent": "messageTextArea"
+            }
+          },
+          {
+            "InteractionName": "WaitForMessageToBeRead",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "ShowTheMessage"
+            },
+            "Action": {
+              "Type": "ActionDelay",
+              "Duration": 1350
+            }
+          },
+          {
+            "InteractionName": "HideTheMessage",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "WaitForMessageToBeRead"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 1000,
+              "ActionComponent": "messageTextArea"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Graph",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Container",
+            "Name": "menuGraph",
+            "Y": 198,
+            "Width": 480,
+            "Height": 74,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "backgroundBottom",
+                "Width": 480,
+                "Height": 74,
+                "RelativeFilename": "Graph\\graph_background_bottom.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "gotoMenuButton",
+                "X": 404,
+                "Y": 1,
+                "Width": 76,
+                "Height": 73,
+                "Pressed": "Graph\\graph_menu_button_pressed.png",
+                "Released": "Graph\\graph_menu_button.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "newGraphButton",
+                "X": 75,
+                "Y": 9,
+                "Width": 110,
+                "Height": 58,
+                "Pressed": "Graph\\new_graph_pressed.png",
+                "Released": "Graph\\new_graph.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "PieButton",
+                "X": 10,
+                "Y": 9,
+                "Width": 55,
+                "Height": 58,
+                "Pressed": "Graph\\pie_toggle_button_inactive.png",
+                "Released": "Graph\\pie_toggle_button_active.png"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "graphArea",
+            "Width": 480,
+            "Height": 198,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "graphBackground",
+                "Width": 480,
+                "Height": 198,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "mcuLoad",
+                "X": 364,
+                "Y": 10,
+                "Width": 96,
+                "Height": 20,
+                "CustomContainerDefinitionName": "McuLoadWidget"
+              },
+              {
+                "Type": "Line",
+                "Name": "lineGraph1",
+                "X": 44,
+                "Y": 38,
+                "Width": 415,
+                "Height": 1,
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "EndX": 415.0,
+                "LineWidth": 1.0,
+                "LineEndingStyle": "Round"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "YvalueTextArea1",
+                "X": 21,
+                "Y": 29,
+                "Width": 16,
+                "Height": 17,
+                "TextId": "Graph_y_value_80",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Line",
+                "Name": "lineGraph2",
+                "X": 44,
+                "Y": 78,
+                "Width": 415,
+                "Height": 1,
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "EndX": 415.0,
+                "LineWidth": 1.0,
+                "LineEndingStyle": "Round"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "YvalueTextArea2",
+                "X": 21,
+                "Y": 69,
+                "Width": 16,
+                "Height": 17,
+                "TextId": "Graph_y_value_60",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Line",
+                "Name": "lineGraph3",
+                "X": 44,
+                "Y": 118,
+                "Width": 415,
+                "Height": 1,
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "EndX": 415.0,
+                "LineWidth": 1.0,
+                "LineEndingStyle": "Round"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "YvalueTextArea3",
+                "X": 21,
+                "Y": 108,
+                "Width": 16,
+                "Height": 17,
+                "TextId": "Graph_y_value_40",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "Line",
+                "Name": "lineGraph4",
+                "X": 44,
+                "Y": 158,
+                "Width": 415,
+                "Height": 1,
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "EndX": 415.0,
+                "LineWidth": 1.0,
+                "LineEndingStyle": "Round"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "YvalueTextArea4",
+                "X": 21,
+                "Y": 149,
+                "Width": 16,
+                "Height": 17,
+                "TextId": "Graph_y_value_20",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 225,
+                  "Green": 228,
+                  "Blue": 230
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "StaticGraph",
+                "Name": "primaryGraph",
+                "X": 44,
+                "Y": 10,
+                "Width": 415,
+                "Height": 188,
+                "DataSeed": 484155951,
+                "NumberOfValues": 15,
+                "MaxX": 200.0,
+                "MinX": -2.0,
+                "PrecisionX": "1",
+                "MaxY": 400.0,
+                "PrecisionY": "1",
+                "XAxisScale": 1.0,
+                "GraphDrawers": [
+                  {
+                    "Type": "DotsDrawer",
+                    "DotWidth": 5,
+                    "FileNameImage": "",
+                    "Color": {
+                      "Red": 36,
+                      "Green": 115,
+                      "Blue": 172
+                    }
+                  },
+                  {
+                    "Type": "DotsDrawer",
+                    "DotWidth": 7,
+                    "FileNameImage": "",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    }
+                  },
+                  {
+                    "Type": "AreaDrawer",
+                    "FileNameImage": "Graph\\brackgroundGraph1.png",
+                    "Color": {
+                      "Red": 20,
+                      "Green": 151,
+                      "Blue": 197
+                    }
+                  },
+                  {
+                    "Type": "LineDrawer",
+                    "LineWidth": 1,
+                    "FileNameImage": "",
+                    "Color": {
+                      "Red": 36,
+                      "Green": 115,
+                      "Blue": 172
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "StaticGraph",
+                "Name": "secondaryGraph",
+                "X": 44,
+                "Y": 10,
+                "Width": 415,
+                "Height": 188,
+                "DataSeed": 1963945440,
+                "NumberOfValues": 15,
+                "MaxX": 200.0,
+                "MinX": -2.0,
+                "PrecisionX": "1",
+                "MaxY": 400.0,
+                "PrecisionY": "1",
+                "XAxisScale": 1.0,
+                "GraphDrawers": [
+                  {
+                    "Type": "DiamondsDrawer",
+                    "DiamondWidth": 6,
+                    "FileNameImage": "",
+                    "Color": {
+                      "Red": 39,
+                      "Green": 146,
+                      "Blue": 52
+                    }
+                  },
+                  {
+                    "Type": "DiamondsDrawer",
+                    "DiamondWidth": 8,
+                    "FileNameImage": "",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    }
+                  },
+                  {
+                    "Type": "AreaDrawer",
+                    "FileNameImage": "Graph\\brackgroundGraph2.png",
+                    "Color": {
+                      "Red": 20,
+                      "Green": 151,
+                      "Blue": 197
+                    }
+                  },
+                  {
+                    "Type": "LineDrawer",
+                    "LineWidth": 1,
+                    "FileNameImage": "",
+                    "Color": {
+                      "Red": 39,
+                      "Green": 146,
+                      "Blue": 52
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SlideMenu",
+            "Name": "slideMenu1",
+            "Width": 480,
+            "Height": 124,
+            "FileNameBackground": "Graph\\backgroundTopMenu.png",
+            "UseButton": true,
+            "FileNameButtonPressed": "Graph\\graph_top_menu_activate_button.png",
+            "FileNameButtonReleased": "Graph\\graph_top_menu_activate_button.png",
+            "ButtonX": 200,
+            "ButtonY": 78,
+            "State": "Collapsed",
+            "ExpandDirection": "South",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 46,
+            "Components": [
+              {
+                "Type": "ToggleButton",
+                "Name": "primaryGraphLineSetting",
+                "X": 44,
+                "Y": 13,
+                "Width": 57,
+                "Height": 58,
+                "Pressed": "Graph\\blue_line_button_active.png",
+                "Released": "Graph\\blue_line_button_inactive.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "primaryGraphDotSetting",
+                "X": 110,
+                "Y": 13,
+                "Width": 57,
+                "Height": 58,
+                "Pressed": "Graph\\blue_dots_button_active.png",
+                "Released": "Graph\\blue_dots_button_inactive.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "primaryGraphAreaSetting",
+                "X": 176,
+                "Y": 13,
+                "Width": 57,
+                "Height": 58,
+                "Pressed": "Graph\\blue_area_button_active.png",
+                "Released": "Graph\\blue_area_button_inactive.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "secondaryGraphLineSetting",
+                "X": 242,
+                "Y": 13,
+                "Width": 57,
+                "Height": 58,
+                "Pressed": "Graph\\green_line_button_active.png",
+                "Released": "Graph\\green_line_button_inactive.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "secondaryGraphDotSetting",
+                "X": 307,
+                "Y": 13,
+                "Width": 57,
+                "Height": 58,
+                "Pressed": "Graph\\green_dots_button_active.png",
+                "Released": "Graph\\green_dots_button_inactive.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "secondaryGraphAreaSetting",
+                "X": 374,
+                "Y": 13,
+                "Width": 57,
+                "Height": 58,
+                "Pressed": "Graph\\green_area_button_active.png",
+                "Released": "Graph\\green_area_button_inactive.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "topMenuLine",
+                "Y": 75,
+                "Width": 480,
+                "Height": 3,
+                "RelativeFilename": "Graph\\graph_top_menu_line.png"
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "logoBar",
+            "Y": 272,
+            "Width": 480,
+            "Height": 48,
+            "CustomContainerDefinitionName": "LogoBar"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "primaryGraphLineSettingClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "primaryGraphLineSetting"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraphSettings"
+            }
+          },
+          {
+            "InteractionName": "primaryGraphDotSettingClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "primaryGraphDotSetting"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraphSettings"
+            }
+          },
+          {
+            "InteractionName": "primaryGraphAreaSettingClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "primaryGraphAreaSetting"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraphSettings"
+            }
+          },
+          {
+            "InteractionName": "secondaryGraplLineSettingClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "secondaryGraphLineSetting"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraphSettings"
+            }
+          },
+          {
+            "InteractionName": "secondaryGraphDotSettingClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "secondaryGraphDotSetting"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraphSettings"
+            }
+          },
+          {
+            "InteractionName": "secondaryGraphAreaSettingClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "secondaryGraphAreaSetting"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraphSettings"
+            }
+          },
+          {
+            "InteractionName": "NewGraph",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "newGraphButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clearGraphs"
+            }
+          },
+          {
+            "InteractionName": "goToPie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "PieButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "PieChart"
+            }
+          },
+          {
+            "InteractionName": "BackToMainMenu",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "gotoMenuButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainMenu"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PieChart",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "backgroundPieChart",
+            "Width": 480,
+            "Height": 206,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mcuLoad",
+            "X": 364,
+            "Y": 10,
+            "Width": 96,
+            "Height": 20,
+            "CustomContainerDefinitionName": "McuLoadWidget"
+          },
+          {
+            "Type": "Container",
+            "Name": "pieChartContainer",
+            "Y": -16,
+            "Width": 250,
+            "Height": 250,
+            "Clickable": true,
+            "Components": [
+              {
+                "Type": "Circle",
+                "Name": "pieChartSerie1",
+                "Y": -5,
+                "Width": 240,
+                "Height": 240,
+                "Color": {
+                  "Red": 19,
+                  "Green": 137,
+                  "Blue": 204
+                },
+                "CenterX": 120.0,
+                "CenterY": 120.0,
+                "Radius": 60.0,
+                "StartAngle": 90.0,
+                "EndAngle": 130.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "pieChartSerie2",
+                "Y": -5,
+                "Width": 240,
+                "Height": 240,
+                "Color": {
+                  "Red": 24,
+                  "Green": 182,
+                  "Blue": 132
+                },
+                "CenterX": 120.0,
+                "CenterY": 120.0,
+                "Radius": 60.0,
+                "StartAngle": 130.0,
+                "EndAngle": 195.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "pieChartSerie3",
+                "Y": -5,
+                "Width": 240,
+                "Height": 240,
+                "Color": {
+                  "Red": 255,
+                  "Green": 120
+                },
+                "CenterX": 120.0,
+                "CenterY": 120.0,
+                "Radius": 60.0,
+                "StartAngle": 180.0,
+                "EndAngle": 280.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "pieChartSerie4",
+                "Y": -5,
+                "Width": 240,
+                "Height": 240,
+                "Color": {
+                  "Red": 217,
+                  "Green": 12,
+                  "Blue": 51
+                },
+                "CenterX": 120.0,
+                "CenterY": 120.0,
+                "Radius": 60.0,
+                "StartAngle": 280.0,
+                "EndAngle": 350.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "pieChartSerie5",
+                "Y": -5,
+                "Width": 240,
+                "Height": 240,
+                "Color": {
+                  "Red": 255,
+                  "Green": 186
+                },
+                "CenterX": 120.0,
+                "CenterY": 120.0,
+                "Radius": 60.0,
+                "StartAngle": 350.0,
+                "EndAngle": 380.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "pieChartSerie6",
+                "Y": -5,
+                "Width": 240,
+                "Height": 240,
+                "Color": {
+                  "Red": 168,
+                  "Blue": 255
+                },
+                "CenterX": 120.0,
+                "CenterY": 120.0,
+                "Radius": 60.0,
+                "StartAngle": 380.0,
+                "EndAngle": 450.0,
+                "CapPrecision": "Butt"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "menuPieChartButton",
+            "Y": 198,
+            "Width": 480,
+            "Height": 74,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "backgroundBottom",
+                "Width": 480,
+                "Height": 74,
+                "RelativeFilename": "Graph\\graph_background_bottom.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "graphButton",
+                "X": 10,
+                "Y": 9,
+                "Width": 55,
+                "Height": 58,
+                "Pressed": "Graph\\graph_toggle_button_inactive.png",
+                "Released": "Graph\\graph_toggle_button_active.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "newPieButton",
+                "X": 75,
+                "Y": 9,
+                "Width": 110,
+                "Height": 58,
+                "Pressed": "Graph\\new_pie_chart_pressed.png",
+                "Released": "Graph\\new_pie_chart.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "donutOrPieButton",
+                "X": 195,
+                "Y": 9,
+                "Width": 55,
+                "Height": 58,
+                "Pressed": "Graph\\half_circle_toggle_button_inactive.png",
+                "Released": "Graph\\half_circle_toggle_button_active.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "gotoMenuButton",
+                "X": 404,
+                "Y": 1,
+                "Width": 76,
+                "Height": 73,
+                "Pressed": "Graph\\graph_menu_button_pressed.png",
+                "Released": "Graph\\graph_menu_button.png"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "legend",
+            "Width": 480,
+            "Height": 198,
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "legendSerie1",
+                "X": 480,
+                "Y": 47,
+                "Width": 120,
+                "Height": 28,
+                "Moveable": true,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textLegendSerie1",
+                    "X": 84,
+                    "Y": 6,
+                    "Width": 22,
+                    "Height": 14,
+                    "Visible": false,
+                    "TextId": "Graph_legend_value",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "Graph_legend_value_text",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaSerie1",
+                    "X": 31,
+                    "Y": 6,
+                    "Width": 43,
+                    "Height": 14,
+                    "TextId": "Graph_legend_text_01",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 202,
+                      "Green": 203,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "legendSerieImage1",
+                    "Width": 28,
+                    "Height": 28,
+                    "RelativeFilename": "Graph\\pie_chart_legend_blue.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "ButtonLegendSerie1",
+                    "X": 6,
+                    "Y": 6,
+                    "Width": 114,
+                    "Height": 16,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "legendSerie2",
+                "X": 480,
+                "Y": 89,
+                "Width": 120,
+                "Height": 28,
+                "Moveable": true,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textLegendSerie2",
+                    "X": 84,
+                    "Y": 6,
+                    "Width": 22,
+                    "Height": 14,
+                    "Visible": false,
+                    "TextId": "Graph_legend_value",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "Graph_legend_value_text",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaSerie2",
+                    "X": 31,
+                    "Y": 6,
+                    "Width": 43,
+                    "Height": 14,
+                    "TextId": "Graph_legend_text_02",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 202,
+                      "Green": 203,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "legendSerieImage2",
+                    "Width": 28,
+                    "Height": 28,
+                    "RelativeFilename": "Graph\\pie_chart_legend_green.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "ButtonLegendSerie2",
+                    "X": 6,
+                    "Y": 6,
+                    "Width": 114,
+                    "Height": 16,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "legendSerie3",
+                "X": 480,
+                "Y": 131,
+                "Width": 120,
+                "Height": 28,
+                "Moveable": true,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textLegendSerie3",
+                    "X": 84,
+                    "Y": 6,
+                    "Width": 22,
+                    "Height": 14,
+                    "Visible": false,
+                    "TextId": "Graph_legend_value",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "Graph_legend_value_text",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaSerie3",
+                    "X": 31,
+                    "Y": 6,
+                    "Width": 43,
+                    "Height": 14,
+                    "TextId": "Graph_legend_text_03",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 202,
+                      "Green": 203,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "legendSerieImage3",
+                    "Width": 28,
+                    "Height": 28,
+                    "RelativeFilename": "Graph\\pie_chart_legend_orange.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "ButtonLegendSerie3",
+                    "X": 6,
+                    "Y": 6,
+                    "Width": 114,
+                    "Height": 16,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "legendSerie4",
+                "X": 600,
+                "Y": 47,
+                "Width": 120,
+                "Height": 28,
+                "Moveable": true,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textLegendSerie4",
+                    "X": 84,
+                    "Y": 6,
+                    "Width": 22,
+                    "Height": 14,
+                    "Visible": false,
+                    "TextId": "Graph_legend_value",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "Graph_legend_value_text",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaSerie4",
+                    "X": 31,
+                    "Y": 6,
+                    "Width": 43,
+                    "Height": 14,
+                    "TextId": "Graph_legend_text_04",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 202,
+                      "Green": 203,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "legendSerieImage4",
+                    "Width": 28,
+                    "Height": 28,
+                    "RelativeFilename": "Graph\\pie_chart_legend_red.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "ButtonLegendSerie4",
+                    "X": 6,
+                    "Y": 6,
+                    "Width": 114,
+                    "Height": 16,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "legendSerie5",
+                "X": 600,
+                "Y": 89,
+                "Width": 120,
+                "Height": 28,
+                "Moveable": true,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textLegendSerie5",
+                    "X": 84,
+                    "Y": 6,
+                    "Width": 22,
+                    "Height": 14,
+                    "Visible": false,
+                    "TextId": "Graph_legend_value",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "Graph_legend_value_text",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaSerie5",
+                    "X": 31,
+                    "Y": 6,
+                    "Width": 43,
+                    "Height": 14,
+                    "TextId": "Graph_legend_text_05",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 202,
+                      "Green": 203,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "legendSerieImage5",
+                    "Width": 28,
+                    "Height": 28,
+                    "RelativeFilename": "Graph\\pie_chart_legend_yellow.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "ButtonLegendSerie5",
+                    "X": 6,
+                    "Y": 6,
+                    "Width": 114,
+                    "Height": 16,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "legendSerie6",
+                "X": 600,
+                "Y": 123,
+                "Width": 120,
+                "Height": 28,
+                "Moveable": true,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textLegendSerie6",
+                    "X": 84,
+                    "Y": 6,
+                    "Width": 22,
+                    "Height": 14,
+                    "Visible": false,
+                    "TextId": "Graph_legend_value",
+                    "TextRotation": "0",
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "Graph_legend_value_text",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaSerie6",
+                    "X": 31,
+                    "Y": 6,
+                    "Width": 43,
+                    "Height": 14,
+                    "TextId": "Graph_legend_text_06",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 202,
+                      "Green": 203,
+                      "Blue": 204
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "legendSerieImage6",
+                    "Width": 28,
+                    "Height": 28,
+                    "RelativeFilename": "Graph\\pie_chart_legend_purple.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "ButtonLegendSerie6",
+                    "X": 6,
+                    "Y": 6,
+                    "Width": 114,
+                    "Height": 16,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "logoBar",
+            "Y": 272,
+            "Width": 480,
+            "Height": 48,
+            "CustomContainerDefinitionName": "LogoBar"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "switchToGraph",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "graphButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "switchToGraph"
+            }
+          },
+          {
+            "InteractionName": "setNewPieChart",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "newPieButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setNewPieChart"
+            }
+          },
+          {
+            "InteractionName": "putDonutOrPie",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "donutOrPieButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "putDonutOrPie"
+            }
+          },
+          {
+            "InteractionName": "printLegendSerie1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonLegendSerie1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "printLegendSerie1"
+            }
+          },
+          {
+            "InteractionName": "printLegendSerie2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonLegendSerie2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "printLegendSerie2"
+            }
+          },
+          {
+            "InteractionName": "printLegendSerie3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonLegendSerie3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "printLegendSerie3"
+            }
+          },
+          {
+            "InteractionName": "printLegendSerie4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonLegendSerie4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "printLegendSerie4"
+            }
+          },
+          {
+            "InteractionName": "printLegendSerie5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonLegendSerie5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "printLegendSerie5"
+            }
+          },
+          {
+            "InteractionName": "printLegendSerie6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonLegendSerie6"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "printLegendSerie6"
+            }
+          },
+          {
+            "InteractionName": "BackToMainMenu",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "gotoMenuButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainMenu"
+            }
+          },
+          {
+            "InteractionName": "BackToGraph",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call PieChart gotoGraphScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Graph"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "gotoGraphScreen"
+          }
+        ]
+      },
+      {
+        "Name": "EasingEquation",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "backgroundImage",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "EasingEquation\\easing_background.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "mainMenuButton",
+            "X": 420,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "EasingEquation\\easing_menu_button_pressed.png",
+            "Released": "EasingEquation\\easing_menu_button.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mcuLoad",
+            "X": 232,
+            "Y": 10,
+            "Width": 96,
+            "Height": 20,
+            "CustomContainerDefinitionName": "McuLoadWidget"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "easingEquationName",
+            "X": 212,
+            "Y": 30,
+            "Width": 136,
+            "Height": 24,
+            "TextId": "Easing_Equation_Sinusoidal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 65,
+              "Green": 93,
+              "Blue": 98
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "dot",
+            "X": 150,
+            "Y": 197,
+            "Width": 13,
+            "Height": 13,
+            "RelativeFilename": "EasingEquation\\easing_dot.png",
+            "Moveable": true
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "equationOptionsScrollableContainer",
+            "Width": 90,
+            "Height": 272,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "ListLayout",
+                "Name": "listLayout",
+                "Width": 90,
+                "Height": 718,
+                "Direction": "South",
+                "Components": [
+                  {
+                    "Type": "CustomContainerInstance",
+                    "Name": "easingEquationButtons",
+                    "Width": 90,
+                    "Height": 682,
+                    "CustomContainerDefinitionName": "EasingEquationButtons"
+                  },
+                  {
+                    "Type": "Container",
+                    "Name": "emptyContainer",
+                    "Y": 682,
+                    "Width": 90,
+                    "Height": 36,
+                    "Components": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "easingTypeButtons",
+            "X": 90,
+            "Y": 233,
+            "Width": 390,
+            "Height": 39,
+            "CustomContainerDefinitionName": "EasingTypeButtons"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "graph",
+            "X": 185,
+            "Y": 40,
+            "Width": 205,
+            "Height": 163,
+            "DataSeed": 264802543,
+            "NumberOfValues": 500,
+            "MaxY": 300.0,
+            "MinY": -50.0,
+            "Precision": "0.0001",
+            "LastIndex": 499,
+            "XAxisScale": 1.0,
+            "PaddingTop": 15,
+            "PaddingBottom": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "graphDot",
+            "X": 180,
+            "Y": 160,
+            "Width": 9,
+            "Height": 9,
+            "RelativeFilename": "EasingEquation\\graphDot.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "logoBar",
+            "Y": 272,
+            "Width": 480,
+            "Height": 48,
+            "CustomContainerDefinitionName": "LogoBar"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "gotoMenuButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "mainMenuButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainMenu"
+            }
+          },
+          {
+            "InteractionName": "NewEasingFunctionSelectedHandler",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "EasingEquationButtons newEasingFunctionSelected happens",
+              "TriggerComponent": "easingEquationButtons"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "newEasingFunctionSelectedHandler"
+            }
+          },
+          {
+            "InteractionName": "NewEasingTypeSelectedHandler",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "EasingTypeButtons newEasingTypeSelected happens",
+              "TriggerComponent": "easingTypeButtons"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "newEasingTypeSelectedHandler"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ProductPresenter",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "navigationBar",
+            "Y": 218,
+            "Width": 480,
+            "Height": 54,
+            "RelativeFilename": "productpresenter\\product_presenter_nav_bar.png"
+          },
+          {
+            "Type": "Box",
+            "Name": "textBackground",
+            "X": 210,
+            "Width": 270,
+            "Height": 218,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "shadowBox",
+            "X": 210,
+            "Width": 1,
+            "Height": 218
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "textAreaContainer",
+            "X": 210,
+            "Y": 53,
+            "Width": 270,
+            "Height": 165,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "bodyText",
+                "X": 18,
+                "Width": 234,
+                "Height": 238,
+                "TextId": "Poster_Text_00",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 118,
+                  "Green": 118,
+                  "Blue": 118
+                },
+                "Fadeable": true
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headlineText",
+            "X": 228,
+            "Y": 20,
+            "Width": 210,
+            "Height": 26,
+            "TextId": "Poster_Headline_00",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 118,
+              "Green": 118,
+              "Blue": 118
+            },
+            "Moveable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headlineTextSwap",
+            "X": 228,
+            "Y": 20,
+            "Width": 210,
+            "Height": 26,
+            "TextId": "Poster_Headline_00",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 118,
+              "Green": 118,
+              "Blue": 118
+            },
+            "Moveable": true
+          },
+          {
+            "Type": "Button",
+            "Name": "nextButton",
+            "X": 424,
+            "Width": 56,
+            "Height": 53,
+            "Pressed": "productpresenter\\product_presenter_next_pressed.png",
+            "Released": "productpresenter\\product_presenter_next.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "posterContainer",
+            "Width": 210,
+            "Height": 218,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "poster",
+                "Width": 210,
+                "Height": 218,
+                "RelativeFilename": "productpresenter\\poster_image_00.png",
+                "Moveable": true
+              },
+              {
+                "Type": "Image",
+                "Name": "posterSwap",
+                "Width": 210,
+                "Height": 218,
+                "RelativeFilename": "productpresenter\\poster_image_00.png",
+                "Moveable": true
+              }
+            ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mcuLoad",
+            "X": 8,
+            "Y": 200,
+            "Width": 96,
+            "Height": 20,
+            "CustomContainerDefinitionName": "McuLoadWidget"
+          },
+          {
+            "Type": "Container",
+            "Name": "languageSelection",
+            "X": 62,
+            "Y": 218,
+            "Width": 405,
+            "Height": 54,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "languageButton",
+                "X": 351,
+                "Y": 9,
+                "Width": 56,
+                "Height": 37,
+                "Pressed": "ProductPresenter\\flag_gbr_active.png",
+                "Released": "ProductPresenter\\flag_gbr_active.png"
+              },
+              {
+                "Type": "SlideMenu",
+                "Name": "languageMenu",
+                "Width": 407,
+                "Height": 54,
+                "Visible": false,
+                "FileNameBackground": "ProductPresenter\\LanguageBG.png",
+                "FileNameButtonPressed": "",
+                "FileNameButtonReleased": "",
+                "State": "Collapsed",
+                "ExpandDirection": "West",
+                "Easing": "Sine",
+                "EasingOption": "Out",
+                "AnimationDuration": 300,
+                "VisiblePixelsWhenCollapsed": 127,
+                "ExpandedStateTimeout": 3000,
+                "Components": [
+                  {
+                    "Type": "Button",
+                    "Name": "GBflag",
+                    "X": 351,
+                    "Y": 9,
+                    "Width": 56,
+                    "Height": 37,
+                    "Pressed": "ProductPresenter\\flag_gbr_active.png",
+                    "Released": "ProductPresenter\\flag_gbr_active.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "DKflag",
+                    "X": 281,
+                    "Y": 9,
+                    "Width": 56,
+                    "Height": 37,
+                    "Pressed": "ProductPresenter\\flag_dnk_active.png",
+                    "Released": "ProductPresenter\\flag_dnk_active.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "JPFfag",
+                    "X": 211,
+                    "Y": 9,
+                    "Width": 56,
+                    "Height": 37,
+                    "Pressed": "ProductPresenter\\flag_jpn_active.png",
+                    "Released": "ProductPresenter\\flag_jpn_active.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "NLflag",
+                    "X": 141,
+                    "Y": 9,
+                    "Width": 56,
+                    "Height": 37,
+                    "Pressed": "ProductPresenter\\flag_nld_active.png",
+                    "Released": "ProductPresenter\\flag_nld_active.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "UAflag",
+                    "X": 71,
+                    "Y": 9,
+                    "Width": 56,
+                    "Height": 37,
+                    "Pressed": "ProductPresenter\\flag_ukr_active.png",
+                    "Released": "ProductPresenter\\flag_ukr_active.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "gotoMenuButton",
+            "X": 2,
+            "Y": 218,
+            "Width": 60,
+            "Height": 54,
+            "Pressed": "productpresenter\\product_presenter_menu_button_pressed.png",
+            "Released": "productpresenter\\product_presenter_menu_button.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "logoBar",
+            "Y": 272,
+            "Width": 480,
+            "Height": 48,
+            "CustomContainerDefinitionName": "LogoBar"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "nextbuttonPressed",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "nextButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nextbuttonPressed"
+            }
+          },
+          {
+            "InteractionName": "gotoMenuButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "gotoMenuButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainMenu"
+            }
+          },
+          {
+            "InteractionName": "languageButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "languageButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "languageButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "DKFlagClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "DKflag"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "DKFlagClicked"
+            }
+          },
+          {
+            "InteractionName": "JPFlagClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "JPFfag"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "JPFlagClicked"
+            }
+          },
+          {
+            "InteractionName": "UAFlagClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UAflag"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UAFlagClicked"
+            }
+          },
+          {
+            "InteractionName": "NLFlagClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "NLflag"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "NLFlagClicked"
+            }
+          },
+          {
+            "InteractionName": "GBFlagClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "GBflag"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "GBFlagClicked"
+            }
+          },
+          {
+            "InteractionName": "languageMenuAnimationEnd",
+            "Trigger": {
+              "Type": "TriggerSlideMenuAnimationEnded",
+              "TriggerComponent": "languageMenu"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "languageMenuAnimationEnd"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "McuLoadWidget",
+        "Width": 96,
+        "Height": 20,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "mcuLoadTxt",
+            "Width": 58,
+            "Height": 14,
+            "TextId": "Demo_View_Mcu_Load_text",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mcuLoadValueTxt",
+            "X": 62,
+            "Width": 34,
+            "Height": 14,
+            "TextId": "Demo_View_Mcu_Load_value",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MenuIconCustomContainer",
+        "Width": 60,
+        "Height": 52,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "iconScalableImage",
+            "X": 18,
+            "Y": 14,
+            "Width": 26,
+            "Height": 26,
+            "Filename": "CustomControls\\control_menu_icon_datepicker_large.png",
+            "ScalingAlgorithm": "Bilinear Interpolation"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ThreeWayProgressCustomContainer",
+        "Width": 248,
+        "Height": 261,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "backgroundImage",
+            "Y": 6,
+            "Width": 248,
+            "Height": 248,
+            "RelativeFilename": "CustomControls\\controls_wheel_background.png"
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "circleProgressTop",
+            "Y": 8,
+            "Width": 248,
+            "Height": 248,
+            "FileNameProgress": "CustomControls\\control_color_wheel.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 124.0,
+            "CenterY": 124.0,
+            "Radius": 102.0,
+            "LineWidth": 27.0,
+            "EndAngle": 120.0,
+            "CapPrecision": "Round",
+            "FileNameBackground": "CustomControls\\control_color_wheel_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "circleProgressRight",
+            "Y": 8,
+            "Width": 248,
+            "Height": 248,
+            "FileNameProgress": "CustomControls\\control_color_wheel.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 124.0,
+            "CenterY": 124.0,
+            "Radius": 102.0,
+            "LineWidth": 27.0,
+            "StartAngle": 120.0,
+            "EndAngle": 240.0,
+            "CapPrecision": "Round",
+            "FileNameBackground": "CustomControls\\control_color_wheel_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "circleProgressLeft",
+            "Y": 6,
+            "Width": 248,
+            "Height": 248,
+            "FileNameProgress": "CustomControls\\control_color_wheel.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 124.0,
+            "CenterY": 124.0,
+            "Radius": 102.0,
+            "LineWidth": 27.0,
+            "StartAngle": 240.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Round",
+            "FileNameBackground": "CustomControls\\control_color_wheel_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "scanButton",
+            "X": 29,
+            "Y": 35,
+            "Width": 191,
+            "Height": 191,
+            "Pressed": "CustomControls\\control_center_button_pressed.png",
+            "Released": "CustomControls\\control_center_button.png",
+            "TextId": "__SingleUse_XNSN",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "binCircularIcon",
+            "X": 89,
+            "Y": 66,
+            "Width": 70,
+            "Height": 70,
+            "CustomContainerDefinitionName": "CircularIcon"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "folderCircularIcon",
+            "X": 71,
+            "Y": 101,
+            "Width": 70,
+            "Height": 70,
+            "CustomContainerDefinitionName": "CircularIcon"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "fileCircularIcon",
+            "X": 115,
+            "Y": 101,
+            "Width": 70,
+            "Height": 70,
+            "CustomContainerDefinitionName": "CircularIcon"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ShowTheProgress",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "scanButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "startShowingProgress"
+            }
+          },
+          {
+            "InteractionName": "MoveBinIcon",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "CircularIcon startMovingAnimation happens",
+              "TriggerComponent": "binCircularIcon"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 89,
+              "Y": -7,
+              "Easing": "Expo",
+              "EasingOption": "Out",
+              "Duration": 400,
+              "ActionComponent": "binCircularIcon"
+            }
+          },
+          {
+            "InteractionName": "MoveFolderIcon",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "CircularIcon startMovingAnimation happens",
+              "TriggerComponent": "folderCircularIcon"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "Y": 147,
+              "Easing": "Expo",
+              "EasingOption": "Out",
+              "Duration": 400,
+              "ActionComponent": "folderCircularIcon"
+            }
+          },
+          {
+            "InteractionName": "MoveFileIcon",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "CircularIcon startMovingAnimation happens",
+              "TriggerComponent": "fileCircularIcon"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 178,
+              "Y": 147,
+              "Easing": "Expo",
+              "EasingOption": "Out",
+              "Duration": 400,
+              "ActionComponent": "fileCircularIcon"
+            }
+          },
+          {
+            "InteractionName": "MakeScanButtonTouchable",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "MoveBinIcon"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "scanButton.setTouchable(true);"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "allProgressesDone"
+          }
+        ]
+      },
+      {
+        "Name": "CircularIcon",
+        "Width": 70,
+        "Height": 70,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "X": 4,
+            "Y": 4,
+            "Width": 63,
+            "Height": 63,
+            "RelativeFilename": "CustomControls\\controls_three_way_small_circle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "icon",
+            "X": 20,
+            "Y": 8,
+            "Width": 30,
+            "Height": 34,
+            "RelativeFilename": "CustomControls\\small_circle_bin_icon_inactive.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "percentage",
+            "X": 20,
+            "Y": 40,
+            "Width": 35,
+            "Height": 12,
+            "TextId": "__SingleUse_M5YA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 240
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_5SC7",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [],
+        "CustomTriggers": [
+          {
+            "Name": "startMovingAnimation",
+            "Description": "StartMovingIconToCorrect Position"
+          }
+        ]
+      },
+      {
+        "Name": "PercentageBarCustomContainer",
+        "Width": 248,
+        "Height": 261,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Y": 6,
+            "Width": 248,
+            "Height": 248,
+            "RelativeFilename": "CustomControls\\controls_wheel_background.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "informationBackground",
+            "X": 29,
+            "Y": 35,
+            "Width": 191,
+            "Height": 191,
+            "RelativeFilename": "CustomControls\\control_center_button.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "percentageLableText",
+            "X": 73,
+            "Y": 149,
+            "Width": 102,
+            "Height": 17,
+            "TextId": "__SingleUse_C3PR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 20,
+              "Green": 52,
+              "Blue": 71
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "percentageTextProgress",
+            "X": 64,
+            "Y": 94,
+            "Width": 120,
+            "Height": 55,
+            "TextId": "__SingleUse_RNT4",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "IndicatorPositionWidth": 120,
+            "IndicatorPositionHeight": 55,
+            "ProgressRangeMax": 230,
+            "ProgressInitialValue": 75
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "circleProgress",
+            "Y": 6,
+            "Width": 248,
+            "Height": 248,
+            "FileNameProgress": "CustomControls\\control_color_wheel.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 124.0,
+            "CenterY": 124.0,
+            "Radius": 102.0,
+            "LineWidth": 27.0,
+            "StartAngle": 245.0,
+            "EndAngle": 475.0,
+            "CapPrecision": "Round",
+            "FileNameBackground": "CustomControls\\control_color_wheel_background.png",
+            "ProgressRangeMax": 230,
+            "ProgressInitialValue": 75,
+            "Clickable": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Date",
+        "Width": 94,
+        "Height": 35,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea",
+            "X": 7,
+            "Y": 8,
+            "Width": 87,
+            "Height": 18,
+            "TextId": "__SingleUse_1OQ4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 49,
+              "Blue": 49
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_2SMU",
+              "UseBuffer": true,
+              "BufferSize": 30
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "DatePickerCustomContainer",
+        "Width": 300,
+        "Height": 180,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 300,
+            "Height": 180,
+            "RelativeFilename": "CustomControls\\datepicker_main_background.png"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "dayScrollWheel",
+            "X": 13,
+            "Y": 13,
+            "Width": 94,
+            "Height": 154,
+            "SelectedItemOffset": 60,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "Date",
+            "ItemTemplateName": "Date",
+            "NumberofItems": 31,
+            "InitialElement": 16,
+            "Easing": "Elastic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 3.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "monthScrollWheel",
+            "X": 71,
+            "Y": 13,
+            "Width": 94,
+            "Height": 154,
+            "SelectedItemOffset": 60,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "Date",
+            "ItemTemplateName": "Date",
+            "NumberofItems": 12,
+            "InitialElement": 7,
+            "Easing": "Elastic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.5,
+            "DragAcceleration": 1.0,
+            "Clickable": true
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "yearScrollWheel",
+            "X": 206,
+            "Y": 13,
+            "Width": 94,
+            "Height": 154,
+            "SelectedItemOffset": 60,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "Date",
+            "ItemTemplateName": "Date",
+            "NumberofItems": 20,
+            "InitialElement": 1,
+            "Easing": "Elastic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 2.0,
+            "DragAcceleration": 1.0,
+            "Clickable": true
+          },
+          {
+            "Type": "Image",
+            "Name": "topShadow",
+            "X": 11,
+            "Y": 10,
+            "Width": 279,
+            "Height": 61,
+            "LockPosition": true,
+            "RelativeFilename": "CustomControls\\datepicker_top_shadow_overlay.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "bottomShadow",
+            "X": 11,
+            "Y": 106,
+            "Width": 279,
+            "Height": 61,
+            "LockPosition": true,
+            "RelativeFilename": "CustomControls\\datepicker_bottom_shadow_overlay.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "glass",
+            "X": 9,
+            "Y": 73,
+            "Width": 284,
+            "Height": 35,
+            "LockPosition": true,
+            "RelativeFilename": "CustomControls\\datepicker_glass_overlay.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "EasingEquationButtons",
+        "Width": 90,
+        "Height": 682,
+        "Components": [
+          {
+            "Type": "RadioButton",
+            "Name": "sinusodialButton",
+            "Y": 620,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sinusodialText",
+            "X": 34,
+            "Y": 643,
+            "Width": 23,
+            "Height": 17,
+            "TextId": "Easing_Equation_Sinusoidal_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "quinticButton",
+            "Y": 558,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "quinticText",
+            "X": 25,
+            "Y": 581,
+            "Width": 40,
+            "Height": 17,
+            "TextId": "Easing_Equation_Quintic_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "quarticButton",
+            "Y": 496,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "quarticText",
+            "X": 25,
+            "Y": 519,
+            "Width": 41,
+            "Height": 17,
+            "TextId": "Easing_Equation_Quartic_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "quardraticButton",
+            "Y": 434,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "quadraticText",
+            "X": 26,
+            "Y": 457,
+            "Width": 39,
+            "Height": 17,
+            "TextId": "Easing_Equation_Quadratic_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "linearButton",
+            "Y": 372,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "linearText",
+            "X": 34,
+            "Y": 395,
+            "Width": 23,
+            "Height": 17,
+            "TextId": "Easing_Equation_Linear_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "exponentialButton",
+            "Y": 310,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "exponentiaText",
+            "X": 32,
+            "Y": 333,
+            "Width": 27,
+            "Height": 17,
+            "TextId": "Easing_Equation_Exponential_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "elasticButton",
+            "Y": 248,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "elasticText",
+            "X": 24,
+            "Y": 271,
+            "Width": 43,
+            "Height": 17,
+            "TextId": "Easing_Equation_Elastic_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "cubicButton",
+            "Y": 186,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "cubicText",
+            "X": 27,
+            "Y": 209,
+            "Width": 37,
+            "Height": 17,
+            "TextId": "Easing_Equation_Cubic_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "circularButton",
+            "Y": 124,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "circularText",
+            "X": 31,
+            "Y": 147,
+            "Width": 29,
+            "Height": 17,
+            "TextId": "Easing_Equation_Circular_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "bounceButton",
+            "Y": 62,
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "bounceText",
+            "X": 21,
+            "Y": 85,
+            "Width": 49,
+            "Height": 17,
+            "TextId": "Easing_Equation_Bounce_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "backButton",
+            "Width": 90,
+            "Height": 62,
+            "FileNameSelected": "EasingEquation\\easing_side_menu_button_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_side_menu_button.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_side_menu_button_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "backText",
+            "X": 29,
+            "Y": 23,
+            "Width": 32,
+            "Height": 17,
+            "TextId": "Easing_Equation_Back_Short",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [],
+        "CustomTriggers": [
+          {
+            "Name": "newEasingFunctionSelected"
+          }
+        ]
+      },
+      {
+        "Name": "EasingTypeButtons",
+        "Width": 390,
+        "Height": 39,
+        "Components": [
+          {
+            "Type": "RadioButton",
+            "Name": "easeInButton",
+            "Width": 130,
+            "Height": 39,
+            "FileNameSelected": "EasingEquation\\easing_bottom_menu_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_bottom_menu_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_bottom_menu.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_bottom_menu_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "easeInText",
+            "X": 42,
+            "Y": 11,
+            "Width": 47,
+            "Height": 17,
+            "TextId": "Easing_Equation_Ease_In",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 157,
+              "Green": 201,
+              "Blue": 209
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "easeOutButton",
+            "X": 130,
+            "Width": 130,
+            "Height": 39,
+            "FileNameSelected": "EasingEquation\\easing_bottom_menu_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_bottom_menu_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_bottom_menu.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_bottom_menu_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "easeOutText",
+            "X": 166,
+            "Y": 11,
+            "Width": 59,
+            "Height": 17,
+            "TextId": "Easing_Equation_Ease_Out",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 157,
+              "Green": 201,
+              "Blue": 209
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "easeInOutButton",
+            "X": 260,
+            "Width": 130,
+            "Height": 39,
+            "FileNameSelected": "EasingEquation\\easing_bottom_menu_selected.png",
+            "FileNameSelectedPressed": "EasingEquation\\easing_bottom_menu_active.png",
+            "FileNameUnselected": "EasingEquation\\easing_bottom_menu.png",
+            "FileNameUnselectedPressed": "EasingEquation\\easing_bottom_menu_active.png",
+            "RadioButtonGroup": "radioButtonGroup"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "easeInOutText",
+            "X": 287,
+            "Y": 11,
+            "Width": 77,
+            "Height": 17,
+            "TextId": "Easing_Equation_Ease_InOut",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 157,
+              "Green": 201,
+              "Blue": 209
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [],
+        "CustomTriggers": [
+          {
+            "Name": "newEasingTypeSelected"
+          }
+        ]
+      },
+      {
+        "Name": "LogoBar",
+        "Width": 480,
+        "Height": 48,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 48,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "tgfxLogo",
+            "X": 151,
+            "Y": 12,
+            "Width": 179,
+            "Height": 25,
+            "RelativeFilename": "TouchGFX_logo.png"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "demos_MVP_1",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "MainMenu",
+    "SelectedStartupLanguage": "GBR",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

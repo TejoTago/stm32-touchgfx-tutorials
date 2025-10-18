@@ -1,0 +1,1808 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "SliderBlinkControl",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_indianBlue.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Shape",
+            "Name": "tj",
+            "X": 233,
+            "Y": 56,
+            "Width": 160,
+            "Height": 160,
+            "Visible": false,
+            "Color": {
+              "Red": 136,
+              "Green": 26,
+              "Blue": 232
+            },
+            "Points": [
+              {
+                "X": 60.0
+              },
+              {
+                "X": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 40.0
+              },
+              {
+                "X": 90.0,
+                "Y": 40.0
+              },
+              {
+                "X": 90.0,
+                "Y": 50.0
+              },
+              {
+                "X": 180.0,
+                "Y": 50.0
+              },
+              {
+                "X": 180.0,
+                "Y": 70.0
+              },
+              {
+                "X": 120.0,
+                "Y": 70.0
+              },
+              {
+                "X": 120.0,
+                "Y": 120.0
+              },
+              {
+                "X": 160.0,
+                "Y": 160.0
+              },
+              {
+                "X": 130.0,
+                "Y": 160.0
+              },
+              {
+                "X": 100.0,
+                "Y": 120.0
+              },
+              {
+                "X": 60.0,
+                "Y": 120.0
+              },
+              {
+                "X": 30.0,
+                "Y": 160.0
+              },
+              {
+                "Y": 160.0
+              },
+              {
+                "X": 40.0,
+                "Y": 120.0
+              },
+              {
+                "X": 40.0,
+                "Y": 70.0
+              },
+              {
+                "Y": 70.0
+              },
+              {
+                "Y": 50.0
+              },
+              {
+                "X": 70.0,
+                "Y": 50.0
+              },
+              {
+                "X": 70.0,
+                "Y": 40.0
+              },
+              {
+                "X": 60.0,
+                "Y": 40.0
+              }
+            ],
+            "XScale": 1.0,
+            "YScale": 1.0
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 125,
+            "Y": 66,
+            "Width": 62,
+            "Height": 34,
+            "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\clay_theme_images_widgets_togglebutton_small_round_small_off_light.png",
+            "Preset": "clay_theme\\presets\\togglebutton\\small\\round_neutral_action.json"
+          },
+          {
+            "Type": "Slider",
+            "Name": "slider1",
+            "X": 197,
+            "Y": 221,
+            "Width": 248,
+            "Height": 44,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_track_small.png",
+            "BackgroundSelected": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_filler_small.png",
+            "Indicator": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_rounded_dark.png",
+            "BackgroundX": 24,
+            "BackgroundY": 19,
+            "IndicatorMax": 200,
+            "ValueMax": 100,
+            "Preset": "clay_theme\\presets\\slider\\horizontal\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 92,
+            "Y": 105,
+            "Width": 128,
+            "Height": 116,
+            "Pressed": "__generated\\glass_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\glass_theme_images_widgets_button_icon_rounded_tiny_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_image_flash_on_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_image_flash_on_50_50_E8F6FB.svg.png",
+            "IconX": 43,
+            "IconY": 35,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "glass_theme\\presets\\button\\icon\\rounded\\tiny_fill_normal.json"
+          },
+          {
+            "Type": "Image",
+            "Name": "blink1",
+            "X": 134,
+            "Y": 141,
+            "Width": 50,
+            "Height": 50,
+            "Visible": false,
+            "RelativeFilename": "__generated\\icon_theme_images_image_flash_on_50_50_D4CD19.svg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "blink2",
+            "X": 134,
+            "Y": 141,
+            "Width": 50,
+            "Height": 50,
+            "Visible": false,
+            "RelativeFilename": "__generated\\icon_theme_images_image_flash_on_50_50_EB830C.svg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "blink3",
+            "X": 134,
+            "Y": 141,
+            "Width": 50,
+            "Height": 50,
+            "Visible": false,
+            "RelativeFilename": "__generated\\icon_theme_images_image_flash_on_50_50_FA0905.svg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_toggle",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "visibilityControl"
+            }
+          },
+          {
+            "InteractionName": "I_slider",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "slider1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "colorControl"
+            }
+          },
+          {
+            "InteractionName": "I_buttonWithIcon",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "blinkControl"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Images",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_gradientWhite.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "lights",
+            "X": 40,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "__generated\\icon_theme_images_action_lightbulb_50_50_1D2352.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "sound",
+            "X": 360,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "__generated\\icon_theme_images_av_volume_up_50_50_1D2352.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "tv",
+            "X": 280,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "__generated\\icon_theme_images_hardware_connected_tv_50_50_1D2352.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "home",
+            "X": 200,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "__generated\\icon_theme_images_places_water_damage_50_50_1D2352.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wifi",
+            "X": 120,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Filename": "__generated\\icon_theme_images_notification_wifi_50_50_1D2352.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "MoveWidgetWithInteractions",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\glass_theme_images_backgrounds_480x272_circle_lights.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Circle",
+            "Name": "whiteBall",
+            "X": 80,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "magentaBall",
+            "X": 277,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 240,
+              "Green": 12,
+              "Blue": 107
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "yellowBall",
+            "X": 326,
+            "Y": 75,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 12
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "lightBlueBall",
+            "X": 326,
+            "Y": 126,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 12,
+              "Green": 216,
+              "Blue": 235
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "purpleBall",
+            "X": 377,
+            "Y": 46,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 201,
+              "Green": 7,
+              "Blue": 240
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "orangeBall",
+            "X": 377,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 245,
+              "Green": 110,
+              "Blue": 7
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "greenBall",
+            "X": 377,
+            "Y": 147,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 19,
+              "Green": 222,
+              "Blue": 16
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 80,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_White",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 237,
+              "Y": 96,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 200,
+              "ActionComponent": "whiteBall"
+            }
+          },
+          {
+            "InteractionName": "I_Purple",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_White"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 406,
+              "Y": -13,
+              "Easing": "Bounce",
+              "EasingOption": "Out",
+              "Duration": 200,
+              "ActionComponent": "purpleBall"
+            }
+          },
+          {
+            "InteractionName": "I_Orange",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_White"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 417,
+              "Y": 136,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 200,
+              "ActionComponent": "orangeBall"
+            }
+          },
+          {
+            "InteractionName": "I_Green",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_White"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 337,
+              "Y": 206,
+              "Easing": "Bounce",
+              "EasingOption": "In",
+              "Duration": 200,
+              "ActionComponent": "greenBall"
+            }
+          },
+          {
+            "InteractionName": "I_yellow",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_White"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 259,
+              "Y": -13,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 300,
+              "ActionComponent": "yellowBall"
+            }
+          },
+          {
+            "InteractionName": "I_LightBlue",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_White"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 300,
+              "ActionComponent": "lightBlueBall"
+            }
+          },
+          {
+            "InteractionName": "I_Magenta",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_White"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 417,
+              "Y": 96,
+              "Easing": "Bounce",
+              "EasingOption": "Out",
+              "Duration": 200,
+              "ActionComponent": "magentaBall"
+            }
+          },
+          {
+            "InteractionName": "I_MagentaBack",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_Magenta"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 277,
+              "Y": 96,
+              "Easing": "Bounce",
+              "EasingOption": "Out",
+              "Duration": 200,
+              "ActionComponent": "magentaBall"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "MoveWidgetWithMixin",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Circle",
+            "Name": "whiteBall",
+            "X": 80,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "magentaBall",
+            "X": 277,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 240,
+              "Green": 12,
+              "Blue": 107
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "yellowBall",
+            "X": 326,
+            "Y": 75,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 240,
+              "Green": 240,
+              "Blue": 12
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "lightBlueBall",
+            "X": 326,
+            "Y": 126,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 12,
+              "Green": 216,
+              "Blue": 235
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "purpleBall",
+            "X": 377,
+            "Y": 46,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 201,
+              "Green": 7,
+              "Blue": 240
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "orangeBall",
+            "X": 377,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 245,
+              "Green": 110,
+              "Blue": 7
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "greenBall",
+            "X": 377,
+            "Y": 147,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 19,
+              "Green": 222,
+              "Blue": 16
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Moveable": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 80,
+            "Y": 96,
+            "Width": 80,
+            "Height": 80,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_MoveBalls",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "MoveBalls"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ScrollWheel",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_hive.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel1",
+            "X": 97,
+            "Y": 53,
+            "Width": 75,
+            "Height": 167,
+            "SelectedItemOffset": 58,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "CustomContainer2",
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 10,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel2",
+            "X": 172,
+            "Y": 53,
+            "Width": 75,
+            "Height": 167,
+            "SelectedItemOffset": 58,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "CustomContainer2",
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 10,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel3",
+            "X": 247,
+            "Y": 53,
+            "Width": 75,
+            "Height": 167,
+            "SelectedItemOffset": 58,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "CustomContainer2",
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 10,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "Shape",
+            "Name": "shape1",
+            "X": 97,
+            "Y": 106,
+            "Width": 225,
+            "Height": 60,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Points": [
+              {},
+              {
+                "X": 225.0
+              },
+              {
+                "X": 225.0,
+                "Y": 60.0
+              },
+              {
+                "Y": 60.0
+              }
+            ],
+            "XScale": 1.0,
+            "YScale": 1.0,
+            "Alpha": 103
+          },
+          {
+            "Type": "Image",
+            "Name": "lock",
+            "X": 360,
+            "Y": 112,
+            "Width": 48,
+            "Height": 48,
+            "RelativeFilename": "__generated\\icon_theme_images_action_lock_48_48_D6F065.svg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "unlock",
+            "X": 360,
+            "Y": 112,
+            "Width": 48,
+            "Height": 48,
+            "Visible": false,
+            "RelativeFilename": "__generated\\icon_theme_images_action_lock_open_48_48_CC871F.svg.png",
+            "Clickable": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "SliderShapeSize",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_grit.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderWidth",
+            "Y": 228,
+            "Width": 248,
+            "Height": 44,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_track_small.png",
+            "BackgroundSelected": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_filler_small.png",
+            "Indicator": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_rounded_dark.png",
+            "BackgroundX": 24,
+            "BackgroundY": 19,
+            "IndicatorMax": 200,
+            "ValueMax": 100,
+            "Preset": "clay_theme\\presets\\slider\\horizontal\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderSize",
+            "Width": 248,
+            "Height": 44,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_track_small.png",
+            "BackgroundSelected": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_filler_small.png",
+            "Indicator": "__generated\\clay_theme_images_widgets_slider_horizontal_thin_rounded_dark.png",
+            "BackgroundX": 24,
+            "BackgroundY": 19,
+            "IndicatorMax": 200,
+            "ValueMax": 100,
+            "Preset": "clay_theme\\presets\\slider\\horizontal\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "Shape",
+            "Name": "star",
+            "X": 116,
+            "Y": 50,
+            "Width": 277,
+            "Height": 222,
+            "FileNameImage": "__generated\\glass_theme_images_backgrounds_480x272_yellow_lines.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Points": [
+              {
+                "X": 40.0
+              },
+              {
+                "X": 50.0,
+                "Y": 30.0
+              },
+              {
+                "X": 80.0,
+                "Y": 40.0
+              },
+              {
+                "X": 50.0,
+                "Y": 50.0
+              },
+              {
+                "X": 80.0,
+                "Y": 80.0
+              },
+              {
+                "X": 40.0,
+                "Y": 60.0
+              },
+              {
+                "Y": 80.0
+              },
+              {
+                "X": 30.0,
+                "Y": 50.0
+              },
+              {
+                "Y": 40.0
+              },
+              {
+                "X": 30.0,
+                "Y": 30.0
+              }
+            ],
+            "XScale": 1.0,
+            "YScale": 1.0,
+            "XOrigin": 80.0,
+            "YOrigin": 40.0
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderHeight",
+            "X": 415,
+            "Y": 28,
+            "Width": 48,
+            "Height": 244,
+            "BackgroundUnselected": "__generated\\clay_theme_images_widgets_slider_vertical_thin_track_small.png",
+            "BackgroundSelected": "__generated\\clay_theme_images_widgets_slider_vertical_thin_filler_small.png",
+            "Indicator": "__generated\\clay_theme_images_widgets_slider_vertical_thin_rounded_dark.png",
+            "BackgroundX": 21,
+            "BackgroundY": 22,
+            "IndicatorMax": 200,
+            "ValueMax": 100,
+            "Preset": "clay_theme\\presets\\slider\\vertical\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 166,
+            "Y": 72,
+            "Width": 133,
+            "Height": 129,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "sliderWidth"
+            },
+            "Action": {
+              "Type": "ActionScaleShape",
+              "XScale": 2.0,
+              "YScale": 1.0,
+              "ActionComponent": "star"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "sliderHeight"
+            },
+            "Action": {
+              "Type": "ActionScaleShape",
+              "XScale": 1.0,
+              "YScale": 2.0,
+              "ActionComponent": "star"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "sliderSize"
+            },
+            "Action": {
+              "Type": "ActionResize",
+              "W": 120,
+              "H": 120,
+              "ActionComponent": "star"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 500,
+              "Y": -60,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 100,
+              "ActionComponent": "star"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "MoveAndFade",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "cLights",
+            "X": 196,
+            "Y": 180,
+            "Width": 157,
+            "Height": 49,
+            "Components": [
+              {
+                "Type": "Line",
+                "Name": "lineLights",
+                "X": 17,
+                "Width": 69,
+                "Height": 43,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "Alpha": 200,
+                "StartY": 20.0,
+                "EndX": 40.0,
+                "EndY": 20.0,
+                "LineWidth": 10.0,
+                "LineEndingStyle": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "circleLights",
+                "Width": 35,
+                "Height": 36,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "CenterX": 15.0,
+                "CenterY": 20.0,
+                "Radius": 12.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt",
+                "Draggable": true
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "lights",
+                "X": 96,
+                "Width": 40,
+                "Height": 40,
+                "Filename": "__generated\\icon_theme_images_image_wb_sunny_30_30_FCE303.svg.png",
+                "Alpha": 0,
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButtonLightsTurnUp",
+                "Y": 1,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButtonLightsDim",
+                "X": 39,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cVolume",
+            "X": 196,
+            "Y": 130,
+            "Width": 149,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Line",
+                "Name": "lineVolume",
+                "X": 17,
+                "Y": 3,
+                "Width": 69,
+                "Height": 43,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "Alpha": 200,
+                "StartY": 20.0,
+                "EndX": 40.0,
+                "EndY": 20.0,
+                "LineWidth": 10.0,
+                "LineEndingStyle": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "circleVolume",
+                "Y": 3,
+                "Width": 35,
+                "Height": 36,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "CenterX": 15.0,
+                "CenterY": 20.0,
+                "Radius": 12.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt",
+                "Moveable": true
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "volumeOFF",
+                "X": 96,
+                "Y": 4,
+                "Width": 40,
+                "Height": 40,
+                "Filename": "__generated\\icon_theme_images_av_volume_off_30_30_36FA05.svg.png",
+                "Alpha": 142,
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "volumeON",
+                "X": 96,
+                "Y": 4,
+                "Width": 40,
+                "Height": 40,
+                "Visible": false,
+                "Filename": "__generated\\icon_theme_images_av_volume_up_30_30_36FA05.svg.png",
+                "Alpha": 142,
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButtonVolumeON",
+                "X": -3,
+                "Y": 3,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButtonVolumeOFF",
+                "X": 39,
+                "Y": 3,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cWifi",
+            "X": 188,
+            "Y": 81,
+            "Width": 157,
+            "Height": 49,
+            "Components": [
+              {
+                "Type": "Line",
+                "Name": "lineWifi",
+                "X": 25,
+                "Y": 6,
+                "Width": 69,
+                "Height": 43,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "Alpha": 200,
+                "StartY": 20.0,
+                "EndX": 40.0,
+                "EndY": 20.0,
+                "LineWidth": 10.0,
+                "LineEndingStyle": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "circleWifi",
+                "X": 8,
+                "Y": 6,
+                "Width": 35,
+                "Height": 36,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "CenterX": 15.0,
+                "CenterY": 20.0,
+                "Radius": 12.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "wifiOFF",
+                "X": 104,
+                "Y": 9,
+                "Width": 40,
+                "Height": 40,
+                "Filename": "__generated\\icon_theme_images_notification_wifi_off_30_30_7477E3.svg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "wifiON",
+                "X": 104,
+                "Y": 9,
+                "Width": 40,
+                "Height": 40,
+                "Visible": false,
+                "Filename": "__generated\\icon_theme_images_notification_wifi_30_30_7477E3.svg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButtonWifiON",
+                "X": 3,
+                "Y": 6,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButtonWifiOFF",
+                "X": 47,
+                "Y": 6,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "cScreen",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Line",
+                "Name": "lineScreenTop",
+                "Width": 480,
+                "Height": 50,
+                "Color": {
+                  "Red": 94,
+                  "Green": 217,
+                  "Blue": 219
+                },
+                "Alpha": 200,
+                "StartY": 20.0,
+                "EndX": 480.0,
+                "EndY": 20.0,
+                "LineWidth": 3.0,
+                "LineEndingStyle": "Round"
+              },
+              {
+                "Type": "Circle",
+                "Name": "circleScreen",
+                "Width": 35,
+                "Height": 36,
+                "Color": {
+                  "Red": 181,
+                  "Green": 232,
+                  "Blue": 232
+                },
+                "CenterX": 15.0,
+                "CenterY": 20.0,
+                "Radius": 4.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              }
+            ]
+          },
+          {
+            "Type": "Line",
+            "Name": "lineScreenBottom",
+            "Y": 229,
+            "Width": 480,
+            "Height": 50,
+            "Color": {
+              "Red": 94,
+              "Green": 217,
+              "Blue": 219
+            },
+            "Alpha": 0,
+            "StartY": 20.0,
+            "EndX": 480.0,
+            "EndY": 20.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_Wifi_ON",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonWifiON"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 47,
+              "Y": 6,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 100,
+              "ActionComponent": "circleWifi"
+            }
+          },
+          {
+            "InteractionName": "I_Wifi_OFF",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonWifiOFF"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 8,
+              "Y": 6,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 100,
+              "ActionComponent": "circleWifi"
+            }
+          },
+          {
+            "InteractionName": "I_Wifi_ONHide",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_Wifi_ON"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "wifiOFF"
+            }
+          },
+          {
+            "InteractionName": "I_Wifi_ON_Show",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_Wifi_ON"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "wifiON"
+            }
+          },
+          {
+            "InteractionName": "I_Wifi_OFF_Hide",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_Wifi_OFF"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "wifiON"
+            }
+          },
+          {
+            "InteractionName": "I_Wifi_OFF_Show",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "I_Wifi_OFF"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "wifiOFF"
+            }
+          },
+          {
+            "InteractionName": "I_Volume_ON",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonVolumeON"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "volumeControlOn"
+            }
+          },
+          {
+            "InteractionName": "I_Volume_OFF",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonVolumeOFF"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "volumeControlOff"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "CustomContainer1",
+        "Width": 75,
+        "Height": 58,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 75,
+            "Height": 58,
+            "TextId": "__SingleUse_PQWF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 214,
+              "Green": 240,
+              "Blue": 101
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_7LWN",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "CustomContainer2",
+        "Width": 75,
+        "Height": 58,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 75,
+            "Height": 58,
+            "TextId": "__SingleUse_LN5C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 134,
+              "Blue": 14
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_F6N4",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "TouchGFX_myTutorials",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "SliderBlinkControl",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

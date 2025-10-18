@@ -1,0 +1,427 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "bg_dark",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "bg_light",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\glass_theme_images_backgrounds_480x272_triangular_disco.png",
+            "Alpha": 0,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "mySlider1",
+            "X": 146,
+            "Y": 96,
+            "Width": 188,
+            "Height": 80,
+            "CustomContainerDefinitionName": "mySlider"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "mySlider triggerValidated happens",
+              "TriggerComponent": "mySlider1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "InOut",
+              "Duration": 200,
+              "ActionComponent": "bg_light"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ShapeHeightClick",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "temperature",
+            "X": 263,
+            "Y": 72,
+            "Width": 80,
+            "Height": 137,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box2",
+                "Width": 80,
+                "Height": 135,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "Shape",
+                "Name": "shape2",
+                "Width": 80,
+                "Height": 135,
+                "Color": {
+                  "Red": 240,
+                  "Green": 2,
+                  "Blue": 74
+                },
+                "Points": [
+                  {
+                    "Y": 100.0
+                  },
+                  {
+                    "X": 100.0,
+                    "Y": 100.0
+                  },
+                  {
+                    "X": 100.0,
+                    "Y": 135.0
+                  },
+                  {
+                    "Y": 135.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0,
+                "Draggable": true,
+                "Clickable": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "waterPressure",
+            "X": 150,
+            "Y": 71,
+            "Width": 80,
+            "Height": 137,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "box1",
+                "Y": 2,
+                "Width": 80,
+                "Height": 135,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "Shape",
+                "Name": "shape1",
+                "Y": 2,
+                "Width": 80,
+                "Height": 135,
+                "Color": {
+                  "Red": 21,
+                  "Green": 90,
+                  "Blue": 230
+                },
+                "Points": [
+                  {
+                    "Y": 100.0
+                  },
+                  {
+                    "X": 100.0,
+                    "Y": 100.0
+                  },
+                  {
+                    "X": 100.0,
+                    "Y": 135.0
+                  },
+                  {
+                    "Y": 135.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0,
+                "Draggable": true,
+                "Clickable": true
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "mySlider",
+        "Width": 188,
+        "Height": 80,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 188,
+            "Height": 80,
+            "RelativeFilename": "__generated\\clay_theme_images_widgets_button_regular_height_36_small_round_normal.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "X": 25,
+            "Y": 20,
+            "Width": 40,
+            "Height": 40,
+            "Components": [
+              {
+                "Type": "Circle",
+                "Name": "circle1",
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 237,
+                  "Green": 187,
+                  "Blue": 187
+                },
+                "CenterX": 20.0,
+                "CenterY": 20.0,
+                "Radius": 17.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "arrow",
+                "Width": 40,
+                "Height": 40,
+                "Filename": "__generated\\icon_theme_images_hardware_keyboard_arrow_right_50_50_C46760.svg.png",
+                "ScalingAlgorithm": "Bilinear Interpolation"
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "check",
+                "Width": 40,
+                "Height": 40,
+                "Filename": "__generated\\icon_theme_images_navigation_check_50_50_C46760.svg.png",
+                "Alpha": 0,
+                "ScalingAlgorithm": "Bilinear Interpolation"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textSlidehere",
+            "X": 65,
+            "Y": 31,
+            "Width": 82,
+            "Height": 19,
+            "TextId": "__SingleUse_CD36",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 237,
+              "Green": 187,
+              "Blue": 187
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textConfirmed",
+            "X": 45,
+            "Y": 31,
+            "Width": 82,
+            "Height": 19,
+            "TextId": "__SingleUse_ZJFG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 86,
+              "Green": 232,
+              "Blue": 19
+            },
+            "Alpha": 0
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_check_fadeIn",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call mySlider actionValidated"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Sine",
+              "EasingOption": "InOut",
+              "Duration": 200,
+              "ActionComponent": "check"
+            }
+          },
+          {
+            "InteractionName": "I_arrow_fadeOut",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call mySlider actionValidated"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Sine",
+              "EasingOption": "InOut",
+              "Duration": 200,
+              "ActionComponent": "arrow"
+            }
+          },
+          {
+            "InteractionName": "I_Back",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call mySlider actionFailed"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 25,
+              "Y": 20,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "ActionComponent": "container1"
+            }
+          },
+          {
+            "InteractionName": "I_textSlidehere_FadeIn",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call mySlider actionFailed"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "InOut",
+              "Duration": 200,
+              "AnimationDelay": 200,
+              "ActionComponent": "textSlidehere"
+            }
+          },
+          {
+            "InteractionName": "I_textConfirmed_FadeOut",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call mySlider actionFailed"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Sine",
+              "EasingOption": "InOut",
+              "Duration": 200,
+              "AnimationDelay": 200,
+              "ActionComponent": "textConfirmed"
+            }
+          },
+          {
+            "InteractionName": "I_Validated",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call mySlider actionValidated"
+            },
+            "Action": {
+              "Type": "ActionEmit",
+              "TriggerCustomTypeName": "mySlider triggerValidated happens"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "triggerValidated"
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "actionValidated"
+          },
+          {
+            "Name": "actionFailed"
+          }
+        ]
+      }
+    ],
+    "Name": "myCustomWidgets",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

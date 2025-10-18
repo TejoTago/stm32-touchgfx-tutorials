@@ -1,0 +1,3944 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "DynamicGraph1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 122,
+            "Y": 44,
+            "Width": 236,
+            "Height": 185,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 142,
+                  "Blue": 176
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 62,
+                  "Green": 68,
+                  "Blue": 178
+                }
+              }
+            ],
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_M3MP",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_X6QN",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "DynamicGraph",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_greenGradient.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphGreen",
+            "X": 130,
+            "Y": 32,
+            "Width": 330,
+            "Height": 209,
+            "DataSeed": 1809043505,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 118,
+                  "Blue": 27
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 82,
+                  "Green": 184,
+                  "Blue": 4
+                }
+              }
+            ],
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_EYOQ",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_WUTU",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphBlue",
+            "X": 130,
+            "Y": 32,
+            "Width": 330,
+            "Height": 209,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 62,
+                  "Green": 68,
+                  "Blue": 178
+                }
+              },
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 5,
+                  "Blue": 5
+                }
+              }
+            ],
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_6J9H",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_GWRV",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleGreen",
+            "X": 39,
+            "Y": 82,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_52B804.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_52B804.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleBlue",
+            "X": 39,
+            "Y": 32,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "updateBlueGraph",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlue"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraph",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreen"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "DynamicGraphMenu",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_greenGradient.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphGreen",
+            "X": 130,
+            "Y": 32,
+            "Width": 330,
+            "Height": 209,
+            "DataSeed": 1809043505,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 118,
+                  "Blue": 27
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 82,
+                  "Green": 184,
+                  "Blue": 4
+                }
+              }
+            ],
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_XPWM",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_4KRZ",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphBlue",
+            "X": 130,
+            "Y": 32,
+            "Width": 330,
+            "Height": 209,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 62,
+                  "Green": 68,
+                  "Blue": 178
+                }
+              },
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 5,
+                  "Blue": 5
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 20.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_6H8X",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_VRCL",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleGreenDots",
+            "X": 39,
+            "Y": 182,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F5761B.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F5761B.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleGreenLine",
+            "X": 39,
+            "Y": 132,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_52B804.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_52B804.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleBlueDots",
+            "X": 39,
+            "Y": 82,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F50505.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F50505.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleBlueLine",
+            "X": 39,
+            "Y": 32,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "updateBlueGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueLine"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateBlueGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueDots"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenLine"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenDots"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "DynamicGraph2Lines",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_lightBlueGradient.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph",
+            "X": 130,
+            "Y": 32,
+            "Width": 330,
+            "Height": 209,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 240,
+                  "Green": 222,
+                  "Blue": 84
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 62,
+                  "Green": 68,
+                  "Blue": 178
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 196,
+                  "Green": 22,
+                  "Blue": 106
+                }
+              },
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 237,
+                  "Green": 223,
+                  "Blue": 233
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 12.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_4U7G",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_BFKU",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleD2",
+            "X": 39,
+            "Y": 182,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_EDDFE9.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_EDDFE9.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleL2",
+            "X": 39,
+            "Y": 132,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_C4166A.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_C4166A.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleD1",
+            "X": 39,
+            "Y": 82,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F0DE54.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F0DE54.svg.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleL1",
+            "X": 39,
+            "Y": 32,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+            "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "updateBlueGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleL1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraph"
+            }
+          },
+          {
+            "InteractionName": "updateBlueGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleD1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraph"
+            }
+          },
+          {
+            "InteractionName": "updateVioletGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleL2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraph"
+            }
+          },
+          {
+            "InteractionName": "updateVioletGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleD2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGraph"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "DynamicGraphSlideMenu",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "maat.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 90,
+            "Width": 390,
+            "Height": 272,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph0",
+            "X": 90,
+            "Width": 390,
+            "Height": 272,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "Interval": 20.0,
+              "LineWidth": 1,
+              "Alpha": 150
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_UMXE",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 62,
+                "Green": 68,
+                "Blue": 178
+              },
+              "TextId": "__SingleUse_OO9B",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphGreen",
+            "X": 90,
+            "Width": 390,
+            "Height": 272,
+            "DataSeed": 1809043505,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 5,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 118,
+                  "Blue": 27
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 82,
+                  "Green": 184,
+                  "Blue": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphBlue",
+            "X": 90,
+            "Width": 390,
+            "Height": 272,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 5,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 5,
+                  "Blue": 5
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 62,
+                  "Green": 68,
+                  "Blue": 178
+                }
+              }
+            ]
+          },
+          {
+            "Type": "SlideMenu",
+            "Name": "slideMenu1",
+            "Width": 75,
+            "Height": 280,
+            "FileNameBackground": "slideMenuBG_90_272.png",
+            "UseButton": true,
+            "FileNameButtonPressed": "__generated\\icon_theme_images_navigation_menu_25_30_5270DE.svg.png",
+            "FileNameButtonReleased": "__generated\\icon_theme_images_navigation_menu_25_30_879AE0.svg.png",
+            "ButtonX": 50,
+            "ButtonY": 120,
+            "State": "Expanded",
+            "ExpandDirection": "East",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 26,
+            "ExpandedStateTimeout": 5000,
+            "Components": [
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleBlueLine",
+                "Y": 12,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleBlueDots",
+                "Y": 55,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F50505.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F50505.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleGreenLine",
+                "Y": 92,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_52B804.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_52B804.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleGreenDots",
+                "Y": 131,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F5761B.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F5761B.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleBox",
+                "Y": 169,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_EBDED5.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_EBDED5.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleGrid",
+                "Y": 211,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png",
+                "Alpha": 150
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "updateBlueGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueLine"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateBlueGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueDots"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenLine"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenDots"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBox"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "customizeScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGrid"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "customizeScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueLine"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueDots"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenLine"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBox"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGrid"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Button",
+        "Includes": "#include <stdlib.h>",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 165,
+            "Y": 96,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_action.png",
+            "Preset": "clay_theme\\presets\\button\\regular\\height_36\\tiny_round_action.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Button setBGcolor"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "box1.setColor(value);\r\nbox1.invalidate();"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Button setBGcolor",
+              "ParameterValue": "touchgfx::Color::getColorFromRGB(rand()%256, rand()%256, rand()%256)",
+              "ActionComponent": "Button"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "setBGcolor",
+            "HasValue": true,
+            "ValueType": "colortype"
+          }
+        ]
+      },
+      {
+        "Name": "ScreenLogo",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_lightBlueGradient.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel1",
+            "X": 1,
+            "Y": 207,
+            "Width": 479,
+            "Height": 65,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 6,
+            "InitialElement": 4,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "Shape",
+            "Name": "shapeL",
+            "X": -96,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 11,
+              "Green": 50,
+              "Blue": 222
+            },
+            "Points": [
+              {},
+              {
+                "X": 20.0
+              },
+              {
+                "X": 20.0,
+                "Y": 60.0
+              },
+              {
+                "X": 60.0,
+                "Y": 60.0
+              },
+              {
+                "X": 60.0,
+                "Y": 80.0
+              },
+              {
+                "Y": 80.0
+              }
+            ],
+            "XScale": 1.0,
+            "YScale": 1.0
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "X": 200,
+            "Y": 285,
+            "Width": 80,
+            "Height": 80,
+            "Components": [
+              {
+                "Type": "Shape",
+                "Name": "shapeA1",
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 11,
+                  "Green": 50,
+                  "Blue": 222
+                },
+                "Points": [
+                  {},
+                  {
+                    "X": 80.0
+                  },
+                  {
+                    "X": 80.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 60.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 60.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "Y": 80.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "shapeA2",
+                "Y": -22,
+                "Width": 80,
+                "Height": 85,
+                "Color": {
+                  "Red": 11,
+                  "Green": 50,
+                  "Blue": 222
+                },
+                "Points": [
+                  {
+                    "Y": 60.0
+                  },
+                  {
+                    "X": 80.0,
+                    "Y": 60.0
+                  },
+                  {
+                    "X": 80.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "Y": 80.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaYoutube",
+            "X": 343,
+            "Y": 242,
+            "Width": 144,
+            "Height": 30,
+            "TextId": "__SingleUse_RYBS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 240,
+              "Green": 101,
+              "Blue": 14
+            },
+            "Alpha": 200
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaGFX",
+            "X": 156,
+            "Y": 68,
+            "Width": 169,
+            "Height": 53,
+            "TextId": "__SingleUse_KRKJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 36,
+              "Green": 181,
+              "Blue": 176
+            },
+            "Alpha": 250
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaSTM32",
+            "X": 180,
+            "Y": 21,
+            "Width": 121,
+            "Height": 53,
+            "TextId": "__SingleUse_LHAH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 250
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 140,
+              "Y": 127,
+              "Easing": "Cubic",
+              "EasingOption": "In",
+              "Duration": 1000,
+              "ActionComponent": "shapeL"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 210,
+              "Y": 127,
+              "Easing": "Cubic",
+              "EasingOption": "In",
+              "Duration": 1000,
+              "ActionComponent": "container1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "BarChart",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272
+          },
+          {
+            "Type": "Container",
+            "Name": "barChart",
+            "X": 234,
+            "Y": 68,
+            "Width": 161,
+            "Height": 150,
+            "Components": [
+              {
+                "Type": "Shape",
+                "Name": "bar1",
+                "Y": 35,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 114,
+                  "Green": 207,
+                  "Blue": 166
+                },
+                "Points": [
+                  {
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "Y": 40.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "bar2",
+                "X": 31,
+                "Y": 35,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 247,
+                  "Green": 209,
+                  "Blue": 15
+                },
+                "Points": [
+                  {
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "Y": 40.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "bar3",
+                "X": 60,
+                "Y": 35,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 232,
+                  "Green": 21,
+                  "Blue": 221
+                },
+                "Points": [
+                  {
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "Y": 40.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "bar4",
+                "X": 90,
+                "Y": 35,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 235,
+                  "Green": 122,
+                  "Blue": 9
+                },
+                "Points": [
+                  {
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 80.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "Y": 40.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              }
+            ]
+          },
+          {
+            "Type": "Line",
+            "Name": "Yaxis",
+            "X": 213,
+            "Y": 75,
+            "Width": 143,
+            "Height": 118,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 120.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "Xaxis",
+            "X": 224,
+            "Y": 193,
+            "Width": 140,
+            "Height": 50,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartY": 5.0,
+            "EndX": 140.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ1",
+            "X": 124,
+            "Y": 103,
+            "Width": 24,
+            "Height": 24,
+            "Visible": false,
+            "Selected": true,
+            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_action.png",
+            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_action_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ2",
+            "X": 124,
+            "Y": 136,
+            "Width": 24,
+            "Height": 24,
+            "Visible": false,
+            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_action.png",
+            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_action_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ3",
+            "X": 124,
+            "Y": 206,
+            "Width": 24,
+            "Height": 24,
+            "Visible": false,
+            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_action.png",
+            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_action_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ4",
+            "X": 124,
+            "Y": 171,
+            "Width": 24,
+            "Height": 24,
+            "Visible": false,
+            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_action.png",
+            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_action_round_small.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_Q1",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q1No",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonQ1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q2",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q2No",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonQ2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q3",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q3No",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonQ3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q4",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          },
+          {
+            "InteractionName": "I_Q4No",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonQ4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fQuarters"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "RadioButtonSemaphore",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 171,
+              "Green": 184,
+              "Blue": 183
+            }
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonOFF",
+            "X": 96,
+            "Y": 80,
+            "Width": 24,
+            "Height": 24,
+            "Selected": true,
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonFast",
+            "X": 96,
+            "Y": 160,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonSlow",
+            "X": 96,
+            "Y": 118,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+          },
+          {
+            "Type": "Container",
+            "Name": "Semaphore",
+            "X": 260,
+            "Y": 11,
+            "Width": 120,
+            "Height": 250,
+            "Components": [
+              {
+                "Type": "BoxWithBorder",
+                "Name": "boxWithBorder1",
+                "X": 20,
+                "Y": 29,
+                "Width": 80,
+                "Height": 200,
+                "Color": {
+                  "Red": 19,
+                  "Green": 20,
+                  "Blue": 20
+                },
+                "BorderColor": {
+                  "Red": 88,
+                  "Green": 95,
+                  "Blue": 128
+                },
+                "BorderSize": 5
+              },
+              {
+                "Type": "Circle",
+                "Name": "redON",
+                "X": 20,
+                "Y": 29,
+                "Width": 80,
+                "Height": 80,
+                "Visible": false,
+                "Color": {
+                  "Red": 222,
+                  "Green": 11,
+                  "Blue": 32
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "redOFF",
+                "X": 20,
+                "Y": 29,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 19,
+                  "Green": 20,
+                  "Blue": 20
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "yellowON",
+                "X": 20,
+                "Y": 91,
+                "Width": 80,
+                "Height": 80,
+                "Visible": false,
+                "Color": {
+                  "Red": 237,
+                  "Green": 194,
+                  "Blue": 19
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "yellowOFF",
+                "X": 20,
+                "Y": 91,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 19,
+                  "Green": 20,
+                  "Blue": 20
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "greenON",
+                "X": 20,
+                "Y": 149,
+                "Width": 80,
+                "Height": 80,
+                "Visible": false,
+                "Color": {
+                  "Red": 54,
+                  "Green": 217,
+                  "Blue": 17
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "greenOFF",
+                "X": 20,
+                "Y": 149,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 19,
+                  "Green": 20,
+                  "Blue": 20
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonOFF"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonOFF"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonSlow"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonSlow"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonFast"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonFast"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "RadioButtonSemaphoreNew",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_lightBlueGradient.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonOFF",
+            "X": 96,
+            "Y": 80,
+            "Width": 24,
+            "Height": 24,
+            "Selected": true,
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonFast",
+            "X": 96,
+            "Y": 160,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonSlow",
+            "X": 96,
+            "Y": 118,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+          },
+          {
+            "Type": "Container",
+            "Name": "Semaphore",
+            "X": 260,
+            "Y": 11,
+            "Width": 120,
+            "Height": 250,
+            "Components": [
+              {
+                "Type": "BoxWithBorder",
+                "Name": "boxWithBorder1",
+                "X": 20,
+                "Y": 29,
+                "Width": 80,
+                "Height": 200,
+                "Color": {
+                  "Red": 8,
+                  "Green": 8,
+                  "Blue": 46
+                },
+                "BorderColor": {
+                  "Red": 237,
+                  "Green": 229,
+                  "Blue": 225
+                },
+                "BorderSize": 5
+              },
+              {
+                "Type": "Circle",
+                "Name": "redON",
+                "X": 20,
+                "Y": 29,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 242,
+                  "Green": 10,
+                  "Blue": 72
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "yellowON",
+                "X": 20,
+                "Y": 91,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 218,
+                  "Green": 230,
+                  "Blue": 5
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "greenON",
+                "X": 20,
+                "Y": 149,
+                "Width": 80,
+                "Height": 80,
+                "Color": {
+                  "Red": 23,
+                  "Green": 245,
+                  "Blue": 7
+                },
+                "CenterX": 40.0,
+                "CenterY": 40.0,
+                "Radius": 25.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 143,
+            "Y": 81,
+            "Width": 26,
+            "Height": 23,
+            "TextId": "__SingleUse_NKUZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 73,
+              "Green": 72,
+              "Blue": 84
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 143,
+            "Y": 119,
+            "Width": 40,
+            "Height": 23,
+            "TextId": "__SingleUse_3P1I",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 73,
+              "Green": 72,
+              "Blue": 84
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 143,
+            "Y": 161,
+            "Width": 34,
+            "Height": 23,
+            "TextId": "__SingleUse_PMSW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 73,
+              "Green": 72,
+              "Blue": 84
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonOFF"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonOFF"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonSlow"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonSlow"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonFast"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "radioButtonFast"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "semaphore"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "WirelessIcon",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_greenGradient.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle80",
+            "X": 278,
+            "Y": 110,
+            "Width": 160,
+            "Height": 160,
+            "Visible": false,
+            "Color": {
+              "Red": 2,
+              "Green": 24,
+              "Blue": 120
+            },
+            "CenterX": 80.0,
+            "CenterY": 80.0,
+            "Radius": 80.0,
+            "StartAngle": 45.0,
+            "EndAngle": -45.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle60",
+            "X": 278,
+            "Y": 110,
+            "Width": 160,
+            "Height": 160,
+            "Visible": false,
+            "Color": {
+              "Red": 6,
+              "Green": 29,
+              "Blue": 128
+            },
+            "CenterX": 80.0,
+            "CenterY": 80.0,
+            "Radius": 60.0,
+            "StartAngle": 45.0,
+            "EndAngle": -45.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle40",
+            "X": 278,
+            "Y": 110,
+            "Width": 160,
+            "Height": 160,
+            "Visible": false,
+            "Color": {
+              "Red": 7,
+              "Green": 38,
+              "Blue": 176
+            },
+            "CenterX": 80.0,
+            "CenterY": 80.0,
+            "Radius": 40.0,
+            "StartAngle": 45.0,
+            "EndAngle": -45.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle20",
+            "X": 278,
+            "Y": 110,
+            "Width": 160,
+            "Height": 160,
+            "Visible": false,
+            "Color": {
+              "Red": 6,
+              "Green": 43,
+              "Blue": 207
+            },
+            "CenterX": 80.0,
+            "CenterY": 80.0,
+            "Radius": 20.0,
+            "StartAngle": 45.0,
+            "EndAngle": -45.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle10",
+            "X": 278,
+            "Y": 110,
+            "Width": 160,
+            "Height": 160,
+            "Visible": false,
+            "Color": {
+              "Red": 10,
+              "Green": 52,
+              "Blue": 242
+            },
+            "CenterX": 80.0,
+            "CenterY": 80.0,
+            "Radius": 10.0,
+            "StartAngle": 45.0,
+            "EndAngle": -45.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 32,
+            "Y": 111,
+            "Width": 138,
+            "Height": 50,
+            "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_medium_round_text_on_dark.png",
+            "Released": "__generated\\clay_theme_images_widgets_togglebutton_medium_round_text_off_normal.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Star",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_blue_salmon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "X": 27,
+            "Y": 144,
+            "Width": 247,
+            "Height": 74,
+            "Components": [
+              {
+                "Type": "Shape",
+                "Name": "star1",
+                "X": 23,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 245,
+                  "Green": 201,
+                  "Blue": 7
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star2",
+                "X": 63,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 245,
+                  "Green": 201,
+                  "Blue": 7
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star3",
+                "X": 103,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 245,
+                  "Green": 201,
+                  "Blue": 7
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star4",
+                "X": 143,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 245,
+                  "Green": 201,
+                  "Blue": 7
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star5",
+                "X": 183,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 245,
+                  "Green": 201,
+                  "Blue": 7
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star1_Off",
+                "X": 23,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star2_Off",
+                "X": 63,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star3_Off",
+                "X": 103,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star4_Off",
+                "X": 143,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "Shape",
+                "Name": "star5_Off",
+                "X": 183,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Points": [
+                  {
+                    "X": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 15.0
+                  },
+                  {
+                    "X": 40.0,
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "X": 25.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 20.0,
+                    "Y": 30.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 40.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 25.0
+                  },
+                  {
+                    "Y": 20.0
+                  },
+                  {
+                    "X": 15.0,
+                    "Y": 15.0
+                  }
+                ],
+                "XScale": 1.0,
+                "YScale": 1.0
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButton1",
+                "X": 23,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "Alpha": 0,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "Width": 40,
+                    "Height": 40,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButton2",
+                "X": 70,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButton3",
+                "X": 103,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButton4",
+                "X": 143,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexButton5",
+                "X": 183,
+                "Y": 17,
+                "Width": 40,
+                "Height": 40,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 302,
+            "Y": 153,
+            "Width": 124,
+            "Height": 57,
+            "TextId": "__SingleUse_0HQD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 250,
+              "Blue": 250
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_DJRF",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 90,
+            "Y": 96,
+            "Width": 124,
+            "Height": 57,
+            "TextId": "__SingleUse_9C3H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 250,
+              "Blue": 250
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton6",
+            "X": 70,
+            "Y": 15,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_toggle_star_border_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_toggle_star_purple500_50_50_EDED18.svg.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton6"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "test"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1",
+            "HasValue": true
+          }
+        ]
+      },
+      {
+        "Name": "StarFlexButtonIcon",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "BG_blue_salmon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "X": 70,
+            "Y": 144,
+            "Width": 250,
+            "Height": 74,
+            "Components": []
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 344,
+            "Y": 156,
+            "Width": 43,
+            "Height": 53,
+            "TextId": "__SingleUse_Y4DH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 250,
+              "Blue": 250
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_CQDS",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 90,
+            "Y": 96,
+            "Width": 124,
+            "Height": 57,
+            "TextId": "__SingleUse_X4YO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 250,
+              "Blue": 250
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "star1",
+            "X": 35,
+            "Y": 156,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_toggle_star_border_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_toggle_star_purple500_50_50_FCAE05.svg.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "star2",
+            "X": 85,
+            "Y": 156,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_toggle_star_border_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_toggle_star_purple500_50_50_FCAE05.svg.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "star3",
+            "X": 135,
+            "Y": 156,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_toggle_star_border_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_toggle_star_purple500_50_50_FCAE05.svg.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "star4",
+            "X": 185,
+            "Y": 156,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_toggle_star_border_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_toggle_star_purple500_50_50_FCAE05.svg.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "star5",
+            "X": 235,
+            "Y": 156,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_toggle_star_border_50_50_E8F6FB.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_toggle_star_purple500_50_50_FCAE05.svg.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "star1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "star2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "star5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "star4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "star3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateRating"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1",
+            "HasValue": true
+          }
+        ]
+      },
+      {
+        "Name": "DynamicGraphSliderY",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 113,
+            "Y": 19,
+            "Width": 318,
+            "Height": 211,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph0",
+            "X": 113,
+            "Y": 19,
+            "Width": 318,
+            "Height": 211,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 225,
+                "Green": 226,
+                "Blue": 240
+              },
+              "Interval": 20.0,
+              "LineWidth": 1,
+              "Alpha": 150
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 225,
+                "Green": 226,
+                "Blue": 240
+              },
+              "TextId": "__SingleUse_JTVL",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 225,
+                "Green": 226,
+                "Blue": 240
+              },
+              "TextId": "__SingleUse_8VPG",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphGreen",
+            "X": 113,
+            "Y": 19,
+            "Width": 318,
+            "Height": 211,
+            "DataSeed": 1809043505,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 5,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 245,
+                  "Green": 239,
+                  "Blue": 125
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 112,
+                  "Green": 252,
+                  "Blue": 5
+                }
+              }
+            ]
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraphBlue",
+            "X": 113,
+            "Y": 19,
+            "Width": 318,
+            "Height": 211,
+            "DataSeed": 704285460,
+            "NumberOfValues": 31,
+            "MaxY": 100.0,
+            "MinY": -20.0,
+            "Precision": "1",
+            "LastIndex": 30,
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 10,
+            "PaddingBottom": 10,
+            "PaddingLeft": 20,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 5,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 247,
+                  "Green": 141,
+                  "Blue": 141
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 10,
+                  "Green": 170,
+                  "Blue": 245
+                }
+              }
+            ]
+          },
+          {
+            "Type": "SlideMenu",
+            "Name": "slideMenu1",
+            "Width": 75,
+            "Height": 280,
+            "FileNameBackground": "slideMenuBG_90_272.png",
+            "UseButton": true,
+            "FileNameButtonPressed": "__generated\\icon_theme_images_navigation_menu_25_30_5270DE.svg.png",
+            "FileNameButtonReleased": "__generated\\icon_theme_images_navigation_menu_25_30_879AE0.svg.png",
+            "ButtonX": 50,
+            "ButtonY": 120,
+            "State": "Expanded",
+            "ExpandDirection": "East",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 26,
+            "ExpandedStateTimeout": 5000,
+            "Components": [
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleBlueLine",
+                "Y": 12,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleBlueDots",
+                "Y": 55,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F50505.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F50505.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleGreenLine",
+                "Y": 92,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_52B804.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_52B804.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleGreenDots",
+                "Y": 131,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_F5761B.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_F5761B.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleBox",
+                "Y": 169,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_EBDED5.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_EBDED5.svg.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleGrid",
+                "Y": 211,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "__generated\\icon_theme_images_toggle_toggle_on_50_50_3E44B2.svg.png",
+                "Released": "__generated\\icon_theme_images_toggle_toggle_off_50_50_3E44B2.svg.png",
+                "Alpha": 150
+              }
+            ]
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderX",
+            "X": 170,
+            "Y": 230,
+            "Width": 224,
+            "Height": 24,
+            "Visible": false,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\dark_theme_images_widgets_slider_horizontal_thin_track_small.png",
+            "BackgroundSelected": "__generated\\dark_theme_images_widgets_slider_horizontal_thin_filler_small.png",
+            "Indicator": "__generated\\dark_theme_images_widgets_slider_horizontal_thin_rounded_dark.png",
+            "BackgroundX": 12,
+            "BackgroundY": 9,
+            "IndicatorMax": 200,
+            "ValueMax": 100,
+            "Preset": "dark_theme\\presets\\slider\\horizontal\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderY",
+            "X": 444,
+            "Y": 12,
+            "Width": 24,
+            "Height": 224,
+            "BackgroundUnselected": "__generated\\dark_theme_images_widgets_slider_vertical_thin_track_small.png",
+            "BackgroundSelected": "__generated\\dark_theme_images_widgets_slider_vertical_thin_filler_small.png",
+            "Indicator": "__generated\\dark_theme_images_widgets_slider_vertical_thin_rounded_dark.png",
+            "BackgroundX": 9,
+            "BackgroundY": 12,
+            "IndicatorMax": 200,
+            "ValueMax": 200,
+            "InitValue": 180,
+            "Preset": "dark_theme\\presets\\slider\\vertical\\thin\\small_rounded_dark.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "updateBlueGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueLine"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateBlueGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueDots"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateBlueGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraphLine",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenLine"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          },
+          {
+            "InteractionName": "updateGreenGraphDots",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenDots"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateGreenGraph"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBox"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "customizeScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGrid"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "customizeScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueLine"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBlueDots"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGreenLine"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleBox"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleGrid"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenu1"
+            }
+          },
+          {
+            "InteractionName": "I_setYAxis",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "sliderY"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setYAxis"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "CustomContainer1",
+        "X": -201,
+        "Y": 207,
+        "Width": 755,
+        "Height": 65,
+        "Components": [],
+        "Interactions": []
+      }
+    ],
+    "Name": "Dynamic_random",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "DynamicGraphSliderY",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

@@ -1,0 +1,397 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "LineChartSliderYAxis",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "lineChart",
+            "X": 118,
+            "Width": 362,
+            "Height": 272,
+            "DataSeed": -1134639603,
+            "NumberOfValues": 101,
+            "MaxY": 250.0,
+            "Precision": "1",
+            "LastIndex": 100,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 10,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 15,
+            "PaddingBottom": 15,
+            "PaddingLeft": 15,
+            "PaddingRight": 10,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 190,
+                  "Green": 232,
+                  "Blue": 183
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 52,
+                  "Green": 247,
+                  "Blue": 85
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 188,
+                "Green": 245,
+                "Blue": 198
+              },
+              "Interval": 25.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 188,
+                "Green": 245,
+                "Blue": 198
+              },
+              "TextId": "__SingleUse_NYYC",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 50.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 188,
+                "Green": 245,
+                "Blue": 198
+              },
+              "TextId": "__SingleUse_WZJ6",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 49,
+            "Y": 14,
+            "Width": 48,
+            "Height": 244,
+            "Color": {
+              "Red": 188,
+              "Green": 245,
+              "Blue": 198
+            },
+            "StartX": 7.0,
+            "StartY": 28.0,
+            "EndX": 7.0,
+            "EndY": 210.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderYAxis",
+            "X": 32,
+            "Y": 14,
+            "Width": 48,
+            "Height": 244,
+            "BackgroundUnselected": "__generated\\glass_theme_images_widgets_slider_vertical_thin_track_small.png",
+            "BackgroundSelected": "__generated\\glass_theme_images_widgets_slider_vertical_thin_filler_small.png",
+            "Indicator": "__generated\\glass_theme_images_widgets_slider_vertical_thin_rounded_dark.png",
+            "BackgroundX": 21,
+            "BackgroundY": 22,
+            "IndicatorMax": 200,
+            "IndicatorMin": 50,
+            "ValueMax": 250,
+            "ValueMin": 50,
+            "InitValue": 250,
+            "Preset": "glass_theme\\presets\\slider\\vertical\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 62,
+            "Y": 187,
+            "Width": 56,
+            "Height": 50,
+            "TextId": "__SingleUse_6GUN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 52,
+              "Green": 247,
+              "Blue": 85
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_5Y2E",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_setYAxisRange",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "sliderYAxis"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setYAxisRange"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LineChartSliderXAxis",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "lineChart",
+            "X": 118,
+            "Width": 362,
+            "Height": 272,
+            "DataSeed": -1134639603,
+            "NumberOfValues": 101,
+            "MaxY": 250.0,
+            "Precision": "1",
+            "LastIndex": 100,
+            "XAxisScale": 1.0,
+            "LabelSizeTop": 10,
+            "LabelSizeBottom": 20,
+            "LabelSizeLeft": 20,
+            "LabelSizeRight": 10,
+            "PaddingTop": 15,
+            "PaddingBottom": 15,
+            "PaddingLeft": 15,
+            "PaddingRight": 10,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 190,
+                  "Green": 232,
+                  "Blue": 183
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 52,
+                  "Green": 247,
+                  "Blue": 85
+                }
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 188,
+                "Green": 245,
+                "Blue": 198
+              },
+              "Interval": 25.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 188,
+                "Green": 245,
+                "Blue": 198
+              },
+              "TextId": "__SingleUse_Q6KA",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 50.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 188,
+                "Green": 245,
+                "Blue": 198
+              },
+              "TextId": "__SingleUse_W9VL",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 49,
+            "Y": 14,
+            "Width": 48,
+            "Height": 244,
+            "Color": {
+              "Red": 188,
+              "Green": 245,
+              "Blue": 198
+            },
+            "StartX": 7.0,
+            "StartY": 28.0,
+            "EndX": 7.0,
+            "EndY": 210.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Slider",
+            "Name": "sliderXAxis",
+            "X": 32,
+            "Y": 14,
+            "Width": 48,
+            "Height": 244,
+            "BackgroundUnselected": "__generated\\glass_theme_images_widgets_slider_vertical_thin_track_small.png",
+            "BackgroundSelected": "__generated\\glass_theme_images_widgets_slider_vertical_thin_filler_small.png",
+            "Indicator": "__generated\\glass_theme_images_widgets_slider_vertical_thin_rounded_dark.png",
+            "BackgroundX": 21,
+            "BackgroundY": 22,
+            "IndicatorMax": 200,
+            "IndicatorMin": 50,
+            "ValueMax": 100,
+            "ValueMin": 20,
+            "InitValue": 100,
+            "Preset": "glass_theme\\presets\\slider\\vertical\\thin\\small_rounded_dark.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 62,
+            "Y": 187,
+            "Width": 56,
+            "Height": 50,
+            "TextId": "__SingleUse_WPON",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 52,
+              "Green": 247,
+              "Blue": 85
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_2ZIQ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "sliderXAxis"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setXAxisRange"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "myCharts",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "LineChartSliderYAxis",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}
