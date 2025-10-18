@@ -24,7 +24,7 @@ This demo showcases a dynamic logo animation using custom shapes and text elemen
 
 \[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/tree/main/Dynamic_random/TouchGFX/gui/src/screenlogo_screen)
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/generated/gui_generated/src/screenlogo_screen/ScreenLogoViewBase.cpp)
+\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic_random/TouchGFX/generated/gui_generated/src/screenlogo_screen/ScreenLogoViewBase.cpp)
 
 
 
