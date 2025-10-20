@@ -1,10 +1,10 @@
-# stm32-touchgfx-tutorials
+# &nbsp;	stm32-touchgfx-tutorials
 
 A collection of STM32F7 GUI projects built with TouchGFX Designer.
 
 
 
-<img src="imagesGitHub/TouchGFX-LAB-gitHub.jpg" alt="TouchGFX LAB" width="600"/>
+img src="imagesGitHub/TouchGFX-LAB-gitHub.jpg" alt="TouchGFX LAB" width="600"/
 
 
 
@@ -20,13 +20,13 @@ This demo showcases a dynamic logo animation using custom shapes and text elemen
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/jWlQ3I2Wx9E)
+\[Watch Demo](https://youtube.com/shorts/jWlQ3I2Wx9E)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/tree/main/Dynamic\_random/TouchGFX/gui/src/screenlogo\_screen)
+\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/tree/main/Dynamic\_random/TouchGFX/gui/src/screenlogo\_screen)
 
 \[Code]([https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/generated/gui\_generated/src/screenlogo\_screen/ScreenLogoViewBase.cpp](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\\_random/TouchGFX/generated/gui\\_generated/src/screenlogo\\_screen/ScreenLogoViewBase.cpp))
 
@@ -52,7 +52,7 @@ This demo simulates a traffic light system controlled by radio buttons. Users ca
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/hwb7RelV4E8)
+\[Watch Demo](https://youtube.com/shorts/hwb7RelV4E8)
 
 
 
@@ -82,7 +82,7 @@ This demo simulates a dynamic WiFi signal icon using animated circular indicator
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/bgtlfiIu-bs)
+\[Watch Demo](https://youtube.com/shorts/bgtlfiIu-bs)
 
 
 
@@ -112,7 +112,7 @@ This demo implements a star-based rating system using flexible buttons. Users ca
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/WFgztTnqD00)
+\[Watch Demo](https://youtube.com/shorts/WFgztTnqD00)
 
 
 
@@ -142,7 +142,7 @@ This demo features a dynamic shape whose visibility, blinking behavior, and colo
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/vAtf0sWdpos)
+\[Watch Demo](https://youtube.com/shorts/vAtf0sWdpos)
 
 
 
@@ -172,7 +172,7 @@ This demo showcases coordinated widget animations using multiple colored circles
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/aRsv1SDlm6c)
+\[Watch Demo](https://youtube.com/shorts/aRsv1SDlm6c)
 
 
 
@@ -202,7 +202,7 @@ This demo features three scroll wheels that allow users to select indexed items.
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/V88QbttihVo)
+\[Watch Demo](https://youtube.com/shorts/V88QbttihVo)
 
 
 
@@ -232,7 +232,7 @@ This demo allows users to dynamically adjust the size and proportions of a custo
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/uHCNtkeM5kg)
+\[Watch Demo](https://youtube.com/shorts/uHCNtkeM5kg)
 
 
 
@@ -262,7 +262,7 @@ This demo combines movement, fading, and drag interaction to create a responsive
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/ugH0k0zLaRw)
+\[Watch Demo](https://youtube.com/shorts/ugH0k0zLaRw)
 
 
 
@@ -292,7 +292,7 @@ This demo implements a custom horizontal slider with confirmation logic based on
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/yN-RtJPEXI4)
+\[Watch Demo](https://youtube.com/shorts/yN-RtJPEXI4)
 
 
 
@@ -322,7 +322,7 @@ This demo features a dynamic line chart that updates in real time with randomize
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/AqLHt7\_X9WE)
+\[Watch Demo](https://youtube.com/shorts/AqLHt7\_X9WE)
 
 
 
@@ -352,7 +352,7 @@ This demo showcases a dynamic graph system enhanced by a slide-out menu that emp
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/WsffIVuCgzM)
+\[Watch Demo](https://youtube.com/shorts/WsffIVuCgzM)
 
 
 
@@ -382,7 +382,7 @@ This demo allows users to interactively resize two custom shapes by clicking and
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/ET8eldr9ZxM)
+\[Watch Demo](https://youtube.com/shorts/ET8eldr9ZxM)
 
 
 
@@ -412,7 +412,7 @@ This demo presents a fully animated pie chart with six data slices representing 
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](<https://youtube.com/shorts/YushRx4lt5c)
+\[Watch Demo](https://youtube.com/shorts/YushRx4lt5c)
 
 
 
