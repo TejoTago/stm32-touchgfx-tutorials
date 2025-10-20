@@ -4,7 +4,7 @@ A collection of STM32F7 GUI projects built with TouchGFX Designer.
 
 
 
-\[TouchGFX LAB](imagesGitHub/TouchGFX-LAB.jpg)
+\[TouchGFX LAB](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/imagesGitHub/TouchGFX-LAB.jpg)
 
 
 
