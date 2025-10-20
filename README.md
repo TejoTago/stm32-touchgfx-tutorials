@@ -4,7 +4,7 @@ A collection of STM32F7 GUI projects built with TouchGFX Designer.
 
 
 
-!\[TouchGFX LAB](https://raw.githubusercontent.com/TejoTago/stm32-touchgfx-tutorials/main/imagesGitHub/TouchGFX-LAB.jpg)
+!\[TouchGFX LAB](imagesGitHub/TouchGFX-LAB.jpg)
 
 
 
@@ -20,15 +20,15 @@ This demo showcases a dynamic logo animation using custom shapes and text elemen
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/jWlQ3I2Wx9E)
+\[Watch Demo](<https://youtube.com/shorts/jWlQ3I2Wx9E)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/tree/main/Dynamic\_random/TouchGFX/gui/src/screenlogo\_screen)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/tree/main/Dynamic\_random/TouchGFX/gui/src/screenlogo\_screen)
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/generated/gui\_generated/src/screenlogo\_screen/ScreenLogoViewBase.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/generated/gui\_generated/src/screenlogo\_screen/ScreenLogoViewBase.cpp>)
 
 
 
@@ -52,13 +52,13 @@ This demo simulates a traffic light system controlled by radio buttons. Users ca
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/hwb7RelV4E8)
+\[Watch Demo](<https://youtube.com/shorts/hwb7RelV4E8)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/radiobuttonsemaphorenew\_screen/RadioButtonSemaphoreNewView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/radiobuttonsemaphorenew\_screen/RadioButtonSemaphoreNewView.cpp>)
 
 
 
@@ -82,13 +82,13 @@ This demo simulates a dynamic WiFi signal icon using animated circular indicator
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/bgtlfiIu-bs)
+\[Watch Demo](<https://youtube.com/shorts/bgtlfiIu-bs)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/wirelessicon\_screen/WirelessIconView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/wirelessicon\_screen/WirelessIconView.cpp>)
 
 
 
@@ -112,13 +112,13 @@ This demo implements a star-based rating system using flexible buttons. Users ca
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/WFgztTnqD00)
+\[Watch Demo](<https://youtube.com/shorts/WFgztTnqD00)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/starflexbuttonicon\_screen/StarFlexButtonIconView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/starflexbuttonicon\_screen/StarFlexButtonIconView.cpp>)
 
 
 
@@ -142,13 +142,13 @@ This demo features a dynamic shape whose visibility, blinking behavior, and colo
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/vAtf0sWdpos)
+\[Watch Demo](<https://youtube.com/shorts/vAtf0sWdpos)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/sliderblinkcontrol\_screen/SliderBlinkControlView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/sliderblinkcontrol\_screen/SliderBlinkControlView.cpp>)
 
 
 
@@ -172,13 +172,13 @@ This demo showcases coordinated widget animations using multiple colored circles
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/aRsv1SDlm6c)
+\[Watch Demo](<https://youtube.com/shorts/aRsv1SDlm6c)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/movewidgetwithmixin\_screen/MoveWidgetWithMixinView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/movewidgetwithmixin\_screen/MoveWidgetWithMixinView.cpp>)
 
 
 
@@ -202,13 +202,13 @@ This demo features three scroll wheels that allow users to select indexed items.
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/V88QbttihVo)
+\[Watch Demo](<https://youtube.com/shorts/V88QbttihVo)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\\myTutorials/TouchGFX/gui/src/scrollwheel\_screen/ScrollWheelView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\\myTutorials/TouchGFX/gui/src/scrollwheel\_screen/ScrollWheelView.cpp>)
 
 
 
@@ -232,13 +232,13 @@ This demo allows users to dynamically adjust the size and proportions of a custo
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/uHCNtkeM5kg)
+\[Watch Demo](<https://youtube.com/shorts/uHCNtkeM5kg)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/slidershapesize\_screen/SliderShapeSizeView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/slidershapesize\_screen/SliderShapeSizeView.cpp>)
 
 
 
@@ -262,13 +262,13 @@ This demo combines movement, fading, and drag interaction to create a responsive
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/ugH0k0zLaRw)
+\[Watch Demo](<https://youtube.com/shorts/ugH0k0zLaRw)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/moveandfade\_screen/MoveAndFadeView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/TouchGFX\_myTutorials/TouchGFX/gui/src/moveandfade\_screen/MoveAndFadeView.cpp>)
 
 
 
@@ -292,13 +292,13 @@ This demo implements a custom horizontal slider with confirmation logic based on
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/yN-RtJPEXI4)
+\[Watch Demo](<https://youtube.com/shorts/yN-RtJPEXI4)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myCustomWidgets/TouchGFX/gui/src/containers/mySlider.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myCustomWidgets/TouchGFX/gui/src/containers/mySlider.cpp>)
 
 
 
@@ -322,13 +322,13 @@ This demo features a dynamic line chart that updates in real time with randomize
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/AqLHt7\_X9WE)
+\[Watch Demo](<https://youtube.com/shorts/AqLHt7\_X9WE)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myCharts/TouchGFX/gui/src/linechartslideryaxis\_screen/LineChartSliderYAxisView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myCharts/TouchGFX/gui/src/linechartslideryaxis\_screen/LineChartSliderYAxisView.cpp>)
 
 
 
@@ -352,13 +352,13 @@ This demo showcases a dynamic graph system enhanced by a slide-out menu that emp
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/WsffIVuCgzM)
+\[Watch Demo](<https://youtube.com/shorts/WsffIVuCgzM)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/dynamicgraphslidery\_screen/DynamicGraphSliderYView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/Dynamic\_random/TouchGFX/gui/src/dynamicgraphslidery\_screen/DynamicGraphSliderYView.cpp>)
 
 
 
@@ -382,13 +382,13 @@ This demo allows users to interactively resize two custom shapes by clicking and
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/ET8eldr9ZxM)
+\[Watch Demo](<https://youtube.com/shorts/ET8eldr9ZxM)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myCustomWidgets/TouchGFX/gui/src/shapeheightclick\_screen/ShapeHeightClickView.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myCustomWidgets/TouchGFX/gui/src/shapeheightclick\_screen/ShapeHeightClickView.cpp>)
 
 
 
@@ -412,13 +412,13 @@ This demo presents a fully animated pie chart with six data slices representing 
 
 \*\*YouTube Link\*\*
 
-\[Watch Demo](https://youtube.com/shorts/YushRx4lt5c)
+\[Watch Demo](<https://youtube.com/shorts/YushRx4lt5c)
 
 
 
 \*\*Folder Path\*\*
 
-\[Code](https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myPieCharts/TouchGFX/gui/src/phase5\_screen/Phase5View.cpp)
+\[Code](<https://github.com/TejoTago/stm32-touchgfx-tutorials/blob/main/myPieCharts/TouchGFX/gui/src/phase5\_screen/Phase5View.cpp>)
 
 
 
