@@ -609,6 +609,26 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/phase5_screen/Phase5View.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/PieChartToggleFullSemiPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/piecharttogglefullsemi_screen/PieChartToggleFullSemiPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/PieChartToggleFullSemiView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/piecharttogglefullsemi_screen/PieChartToggleFullSemiView.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SemiCirclePieChartPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/semicirclepiechart_screen/SemiCirclePieChartPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SemiCirclePieChartView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/semicirclepiechart_screen/SemiCirclePieChartView.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/ApplicationFontProvider.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp</locationURI>
@@ -724,6 +744,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/phase5_screen/Phase5ViewBase.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/PieChartToggleFullSemiViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/piecharttogglefullsemi_screen/PieChartToggleFullSemiViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/SemiCirclePieChartViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/semicirclepiechart_screen/SemiCirclePieChartViewBase.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/BitmapDatabase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/BitmapDatabase.cpp</locationURI>
@@ -734,34 +764,64 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/SVGDatabase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_off.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_off.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_off.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_off.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_on_active.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_on_active.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_on_dark.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_on_dark.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_small_round_small_off_light.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_small_round_small_off_light.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_small_round_small_on_action.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_small_round_small_on_action.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_clay_theme_images_backgrounds_480x272_gradient_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_clay_theme_images_backgrounds_480x272_gradient_light.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_dark_theme_images_backgrounds_480x272_carbon.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_backgrounds_480x272_carbon.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_off.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_off.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_on_dark.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_on_dark.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

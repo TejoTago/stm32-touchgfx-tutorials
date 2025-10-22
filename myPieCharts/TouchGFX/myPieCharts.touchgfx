@@ -10,7 +10,7 @@
             "Name": "scalableImage1",
             "Width": 480,
             "Height": 272,
-            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -71,7 +71,7 @@
             "Name": "scalableImage1",
             "Width": 480,
             "Height": 272,
-            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -170,7 +170,7 @@
             "Name": "scalableImage1",
             "Width": 480,
             "Height": 272,
-            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -269,7 +269,7 @@
             "Name": "scalableImage1",
             "Width": 480,
             "Height": 272,
-            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -505,12 +505,12 @@
             "Y": 150,
             "Width": 24,
             "Height": 24,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
             "RadioButtonGroup": "radioButtonGroup1",
-            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           },
           {
             "Type": "RadioButton",
@@ -519,12 +519,12 @@
             "Y": 150,
             "Width": 24,
             "Height": 24,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
             "RadioButtonGroup": "radioButtonGroup1",
-            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           },
           {
             "Type": "RadioButton",
@@ -533,12 +533,12 @@
             "Y": 150,
             "Width": 24,
             "Height": 24,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
             "RadioButtonGroup": "radioButtonGroup1",
-            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           },
           {
             "Type": "RadioButton",
@@ -548,11 +548,12 @@
             "Width": 24,
             "Height": 24,
             "Selected": true,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
-            "RadioButtonGroup": "radioButtonGroup1"
+            "FileNameSelected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\dark_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "dark_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           }
         ],
         "Interactions": [
@@ -611,7 +612,7 @@
             "Name": "scalableImage1",
             "Width": 480,
             "Height": 272,
-            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -847,12 +848,12 @@
             "Y": 150,
             "Width": 24,
             "Height": 24,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
             "RadioButtonGroup": "radioButtonGroup1",
-            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           },
           {
             "Type": "RadioButton",
@@ -861,12 +862,12 @@
             "Y": 150,
             "Width": 24,
             "Height": 24,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
             "RadioButtonGroup": "radioButtonGroup1",
-            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           },
           {
             "Type": "RadioButton",
@@ -875,12 +876,12 @@
             "Y": 150,
             "Width": 24,
             "Height": 24,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_active.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
             "RadioButtonGroup": "radioButtonGroup1",
-            "Preset": "clay_theme\\presets\\radiobutton\\radio\\small_active_round_small.json"
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           },
           {
             "Type": "RadioButton",
@@ -890,11 +891,12 @@
             "Width": 24,
             "Height": 24,
             "Selected": true,
-            "FileNameSelected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
-            "FileNameSelectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
-            "FileNameUnselected": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off.png",
-            "FileNameUnselectedPressed": "__generated\\clay_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
-            "RadioButtonGroup": "radioButtonGroup1"
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
           }
         ],
         "Interactions": [
@@ -943,6 +945,729 @@
             }
           }
         ]
+      },
+      {
+        "Name": "SemiCirclePieChart",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "pieChartContainer",
+            "Width": 450,
+            "Height": 250,
+            "Clickable": true,
+            "Components": [
+              {
+                "Type": "Circle",
+                "Name": "serie1",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 19,
+                  "Green": 137,
+                  "Blue": 204
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "EndAngle": 54.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie2",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 240,
+                  "Green": 150,
+                  "Blue": 14
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 54.0,
+                "EndAngle": 126.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie3",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 217,
+                  "Green": 12,
+                  "Blue": 51
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 126.0,
+                "EndAngle": 216.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie4",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 225,
+                  "Green": 255
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 216.0,
+                "EndAngle": 252.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie5",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 168,
+                  "Blue": 255
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 252.0,
+                "EndAngle": 317.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie6",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 14,
+                  "Green": 240,
+                  "Blue": 14
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 317.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie1Percentage",
+                "X": 152,
+                "Y": 21,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_3MH9",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 19,
+                  "Green": 137,
+                  "Blue": 204
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_CMLX",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie2Percentage",
+                "X": 209,
+                "Y": 107,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_4D0E",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 240,
+                  "Green": 168,
+                  "Blue": 14
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_VG4G",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie3Percentage",
+                "X": 125,
+                "Y": 199,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_HCBE",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 217,
+                  "Green": 12,
+                  "Blue": 51
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_026Y",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie4Percentage",
+                "X": 6,
+                "Y": 174,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_0X09",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 225,
+                  "Green": 255
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_35UP",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie5Percentage",
+                "X": -11,
+                "Y": 70,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_74WK",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 168,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_TKNY",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie6Percentage",
+                "X": 45,
+                "Y": 21,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_EITD",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 240,
+                  "Blue": 14
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_L52Z",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ4",
+            "X": 315,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ3",
+            "X": 349,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ2",
+            "X": 385,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ1",
+            "X": 281,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "Selected": true,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_Q1",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_q2",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_Q3",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_Q4",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PieChartToggleFullSemi",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 225,
+            "Y": 21,
+            "Width": 203,
+            "Height": 219,
+            "Visible": false,
+            "Color": {
+              "Red": 221,
+              "Green": 221,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "pieChartContainer",
+            "Width": 450,
+            "Height": 250,
+            "Clickable": true,
+            "Components": [
+              {
+                "Type": "Circle",
+                "Name": "serie1",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 19,
+                  "Green": 137,
+                  "Blue": 204
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "EndAngle": 54.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie2",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 240,
+                  "Green": 150,
+                  "Blue": 14
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 54.0,
+                "EndAngle": 126.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie3",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 217,
+                  "Green": 12,
+                  "Blue": 51
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 126.0,
+                "EndAngle": 216.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie4",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 225,
+                  "Green": 255
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 216.0,
+                "EndAngle": 252.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie5",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 168,
+                  "Blue": 255
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 252.0,
+                "EndAngle": 317.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "Circle",
+                "Name": "serie6",
+                "Width": 250,
+                "Height": 250,
+                "Color": {
+                  "Red": 14,
+                  "Green": 240,
+                  "Blue": 14
+                },
+                "CenterX": 125.0,
+                "CenterY": 125.0,
+                "Radius": 60.0,
+                "StartAngle": 317.0,
+                "EndAngle": 360.0,
+                "CapPrecision": "Butt"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie1Percentage",
+                "X": 225,
+                "Y": 21,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_DXUC",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 19,
+                  "Green": 137,
+                  "Blue": 204
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_QZDM",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie2Percentage",
+                "X": 225,
+                "Y": 50,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_TFIH",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 240,
+                  "Green": 168,
+                  "Blue": 14
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_P2PB",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie3Percentage",
+                "X": 366,
+                "Y": 50,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_1SHV",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 217,
+                  "Green": 12,
+                  "Blue": 51
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_SVCK",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie4Percentage",
+                "X": 296,
+                "Y": 21,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_U7W6",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 225,
+                  "Green": 255
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_FR4P",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie5Percentage",
+                "X": 296,
+                "Y": 50,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_50EO",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 191,
+                  "Green": 119,
+                  "Blue": 230
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_OE8L",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "serie6Percentage",
+                "X": 366,
+                "Y": 21,
+                "Width": 62,
+                "Height": 29,
+                "TextId": "__SingleUse_HF8R",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 240,
+                  "Blue": 14
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_NCET",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              }
+            ]
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ4",
+            "X": 366,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ3",
+            "X": 330,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ2",
+            "X": 296,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButtonQ1",
+            "X": 262,
+            "Y": 150,
+            "Width": 24,
+            "Height": 24,
+            "Selected": true,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_small_round_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\small_dark_round_small.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButtonCircleMode",
+            "X": 295,
+            "Y": 197,
+            "Width": 62,
+            "Height": 34,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_round_small_off_light.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\round_neutral_action.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "I_Q1",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_q2",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_Q3",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_Q4",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonQ2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateQuarterData"
+            }
+          },
+          {
+            "InteractionName": "I_toggleCircleMode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButtonCircleMode"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "toggleCircleMode"
+            }
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [],
@@ -952,7 +1677,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Phase5",
+    "StartupScreenName": "PieChartToggleFullSemi",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",
