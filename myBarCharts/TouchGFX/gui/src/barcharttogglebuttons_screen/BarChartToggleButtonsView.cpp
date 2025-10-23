@@ -1,23 +1,23 @@
-#include <gui/screen1_screen/Screen1View.hpp>
+#include <gui/barcharttogglebuttons_screen/BarChartToggleButtonsView.hpp>
 
-Screen1View::Screen1View()
+BarChartToggleButtonsView::BarChartToggleButtonsView()
 {
 }
 
-void Screen1View::setupScreen()
+void BarChartToggleButtonsView::setupScreen()
 {
-    Screen1ViewBase::setupScreen();
+    BarChartToggleButtonsViewBase::setupScreen();
 
     // Initialize with Q1 data since Q1 is selected by default
     updateColumnHeights(1);
 }
 
-void Screen1View::tearDownScreen()
+void BarChartToggleButtonsView::tearDownScreen()
 {
-    Screen1ViewBase::tearDownScreen();
+    BarChartToggleButtonsViewBase::tearDownScreen();
 }
 
-void Screen1View::selectQuarter()
+void BarChartToggleButtonsView::selectQuarter()
 {
     // Determine which quarter button is currently selected
     int selectedQuarter = 0;
@@ -35,7 +35,7 @@ void Screen1View::selectQuarter()
     updateColumnHeights(selectedQuarter);
 }
 
-void Screen1View::updateColumnHeights(int quarter)
+void BarChartToggleButtonsView::updateColumnHeights(int quarter)
 {
     // Define expenditure data for each quarter
     // Remember: base is at Y=170, so smaller Y values = taller bars

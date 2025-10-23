@@ -1,14 +1,14 @@
-#ifndef SCREEN1VIEW_HPP
-#define SCREEN1VIEW_HPP
+#ifndef BARCHARTTOGGLEBUTTONSVIEW_HPP
+#define BARCHARTTOGGLEBUTTONSVIEW_HPP
 
-#include <gui_generated/screen1_screen/Screen1ViewBase.hpp>
-#include <gui/screen1_screen/Screen1Presenter.hpp>
+#include <gui_generated/barcharttogglebuttons_screen/BarChartToggleButtonsViewBase.hpp>
+#include <gui/barcharttogglebuttons_screen/BarChartToggleButtonsPresenter.hpp>
 
-class Screen1View : public Screen1ViewBase
+class BarChartToggleButtonsView : public BarChartToggleButtonsViewBase
 {
 public:
-    Screen1View();
-    virtual ~Screen1View() {}
+    BarChartToggleButtonsView();
+    virtual ~BarChartToggleButtonsView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
     // Override the virtual function from base class
@@ -22,7 +22,6 @@ protected:
     touchgfx::AbstractShape::ShapePoint<float> col2Points[4];
     touchgfx::AbstractShape::ShapePoint<float> col3Points[4];
     touchgfx::AbstractShape::ShapePoint<float> col4Points[4];
-
 };
 
-#endif // SCREEN1VIEW_HPP
+#endif // BARCHARTTOGGLEBUTTONSVIEW_HPP

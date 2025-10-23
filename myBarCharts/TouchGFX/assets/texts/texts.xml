@@ -6,6 +6,39 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_KZ9I" Alignment="Left" TypographyId="Typography_12">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="__SingleUse_23TZ" Alignment="Center" TypographyId="Typography_12">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_QD0C" Alignment="Left" TypographyId="Typography_12">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="__SingleUse_HSLH" Alignment="Center" TypographyId="Typography_12">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5OKA" Alignment="Left" TypographyId="Typography_12">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="__SingleUse_RFWI" Alignment="Center" TypographyId="Typography_12">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9SUB" Alignment="Left" TypographyId="Typography_12">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="__SingleUse_BMR7" Alignment="Center" TypographyId="Typography_12">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_7UGA" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">50</Translation>
+      </Text>
+      <Text Id="__SingleUse_000S" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">100</Translation>
+      </Text>
+      <Text Id="__SingleUse_A88J" Alignment="Right" TypographyId="Small">
+        <Translation Language="GB">150</Translation>
+      </Text>
       <Text Id="__SingleUse_V6SP" Alignment="Left" TypographyId="Typography_12">
         <Translation Language="GB">100</Translation>
       </Text>

@@ -1,17 +1,17 @@
-#ifndef SCREEN1PRESENTER_HPP
-#define SCREEN1PRESENTER_HPP
+#ifndef BARCHARTTOGGLEBUTTONSPRESENTER_HPP
+#define BARCHARTTOGGLEBUTTONSPRESENTER_HPP
 
 #include <gui/model/ModelListener.hpp>
 #include <mvp/Presenter.hpp>
 
 using namespace touchgfx;
 
-class Screen1View;
+class BarChartToggleButtonsView;
 
-class Screen1Presenter : public touchgfx::Presenter, public ModelListener
+class BarChartToggleButtonsPresenter : public touchgfx::Presenter, public ModelListener
 {
 public:
-    Screen1Presenter(Screen1View& v);
+    BarChartToggleButtonsPresenter(BarChartToggleButtonsView& v);
 
     /**
      * The activate function is called automatically when this screen is "switched in"
@@ -25,12 +25,12 @@ public:
      */
     virtual void deactivate();
 
-    virtual ~Screen1Presenter() {}
+    virtual ~BarChartToggleButtonsPresenter() {}
 
 private:
-    Screen1Presenter();
+    BarChartToggleButtonsPresenter();
 
-    Screen1View& view;
+    BarChartToggleButtonsView& view;
 };
 
-#endif // SCREEN1PRESENTER_HPP
+#endif // BARCHARTTOGGLEBUTTONSPRESENTER_HPP

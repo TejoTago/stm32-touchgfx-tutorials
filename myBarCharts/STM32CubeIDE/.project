@@ -549,6 +549,26 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/BarChartTickEventPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/barcharttickevent_screen/BarChartTickEventPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/BarChartTickEventView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/barcharttickevent_screen/BarChartTickEventView.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/BarChartToggleButtonsPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/barcharttogglebuttons_screen/BarChartToggleButtonsPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/BarChartToggleButtonsView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/barcharttogglebuttons_screen/BarChartToggleButtonsView.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/gui/FrontendApplication.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
@@ -557,16 +577,6 @@
 			<name>Application/User/gui/Model.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/model/Model.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/Screen1Presenter.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/Screen1View.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/screen1_screen/Screen1View.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/ApplicationFontProvider.cpp</name>
@@ -684,14 +694,19 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/VectorFontRendererBuffers.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/BarChartTickEventViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/barcharttickevent_screen/BarChartTickEventViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/BarChartToggleButtonsViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/barcharttogglebuttons_screen/BarChartToggleButtonsViewBase.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/FrontendApplicationBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/Screen1ViewBase.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/BitmapDatabase.cpp</name>
@@ -727,6 +742,31 @@
 			<name>Application/User/generated/image_dark_theme_images_backgrounds_480x272_carbon.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_backgrounds_480x272_carbon.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_glass_theme_images_backgrounds_480x272_water_lights.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_backgrounds_480x272_water_lights.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_glass_theme_images_widgets_analogclock_backgrounds_small_plain_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_widgets_analogclock_backgrounds_small_plain_light.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_glass_theme_images_widgets_analogclock_hands_small_hour_plain_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_widgets_analogclock_hands_small_hour_plain_light.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_glass_theme_images_widgets_analogclock_hands_small_minute_plain_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_widgets_analogclock_hands_small_minute_plain_light.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_glass_theme_images_widgets_analogclock_hands_small_second_plain_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_widgets_analogclock_hands_small_second_plain_light.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

@@ -2,7 +2,7 @@
   "Application": {
     "Screens": [
       {
-        "Name": "Screen1",
+        "Name": "BarChartToggleButtons",
         "CanvasBufferSize": 7200,
         "Components": [
           {
@@ -10,7 +10,7 @@
             "Name": "scalableImage1",
             "Width": 480,
             "Height": 272,
-            "Filename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png",
+            "Filename": "__generated\\dark_theme_images_backgrounds_480x272_carbon.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           },
           {
@@ -514,6 +514,449 @@
             }
           }
         ]
+      },
+      {
+        "Name": "BarChartTickEvent",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\glass_theme_images_backgrounds_480x272_water_lights.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Container",
+            "Name": "barChart",
+            "X": 148,
+            "Y": 11,
+            "Width": 313,
+            "Height": 250,
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "columns",
+                "X": -84,
+                "Y": -11,
+                "Width": 397,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Shape",
+                    "Name": "col1",
+                    "X": 158,
+                    "Y": 51,
+                    "Width": 35,
+                    "Height": 170,
+                    "Color": {
+                      "Red": 17,
+                      "Green": 212,
+                      "Blue": 163
+                    },
+                    "Points": [
+                      {},
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 170.0
+                      },
+                      {
+                        "Y": 170.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "col2",
+                    "X": 215,
+                    "Y": 51,
+                    "Width": 35,
+                    "Height": 170,
+                    "Color": {
+                      "Red": 230,
+                      "Green": 25,
+                      "Blue": 230
+                    },
+                    "Points": [
+                      {
+                        "Y": 50.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 50.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 170.0
+                      },
+                      {
+                        "Y": 170.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "col3",
+                    "X": 275,
+                    "Y": 51,
+                    "Width": 35,
+                    "Height": 170,
+                    "Color": {
+                      "Red": 231,
+                      "Green": 247,
+                      "Blue": 5
+                    },
+                    "Points": [
+                      {
+                        "Y": 30.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 30.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 170.0
+                      },
+                      {
+                        "Y": 170.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "col4",
+                    "X": 331,
+                    "Y": 51,
+                    "Width": 35,
+                    "Height": 170,
+                    "Color": {
+                      "Red": 250,
+                      "Green": 110,
+                      "Blue": 10
+                    },
+                    "Points": [
+                      {
+                        "Y": 70.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 70.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 170.0
+                      },
+                      {
+                        "Y": 170.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "gridlines",
+                "X": -84,
+                "Y": -11,
+                "Width": 397,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Line",
+                    "Name": "YGridlines1",
+                    "X": 128,
+                    "Y": 22,
+                    "Width": 269,
+                    "Height": 199,
+                    "Color": {
+                      "Red": 118,
+                      "Green": 156,
+                      "Blue": 149
+                    },
+                    "StartX": 5.0,
+                    "StartY": 50.0,
+                    "EndX": 260.0,
+                    "EndY": 50.0,
+                    "LineWidth": 1.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "YGridlines2",
+                    "X": 128,
+                    "Y": 22,
+                    "Width": 269,
+                    "Height": 199,
+                    "Color": {
+                      "Red": 118,
+                      "Green": 156,
+                      "Blue": 149
+                    },
+                    "StartX": 5.0,
+                    "StartY": 100.0,
+                    "EndX": 260.0,
+                    "EndY": 100.0,
+                    "LineWidth": 1.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "YGridlines3",
+                    "X": 128,
+                    "Y": 22,
+                    "Width": 269,
+                    "Height": 199,
+                    "Color": {
+                      "Red": 118,
+                      "Green": 156,
+                      "Blue": 149
+                    },
+                    "StartX": 5.0,
+                    "StartY": 150.0,
+                    "EndX": 260.0,
+                    "EndY": 150.0,
+                    "LineWidth": 1.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea1",
+                    "X": 95,
+                    "Y": 66,
+                    "Width": 33,
+                    "Height": 16,
+                    "TextId": "__SingleUse_A88J",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 164,
+                      "Green": 235,
+                      "Blue": 224
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea2",
+                    "X": 95,
+                    "Y": 115,
+                    "Width": 33,
+                    "Height": 16,
+                    "TextId": "__SingleUse_000S",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 164,
+                      "Green": 235,
+                      "Blue": 224
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea3",
+                    "X": 95,
+                    "Y": 164,
+                    "Width": 33,
+                    "Height": 16,
+                    "TextId": "__SingleUse_7UGA",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 164,
+                      "Green": 235,
+                      "Blue": 224
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "axis",
+                "X": -84,
+                "Y": -10,
+                "Width": 397,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Line",
+                    "Name": "Yaxis",
+                    "X": 129,
+                    "Y": 11,
+                    "Width": 15,
+                    "Height": 213,
+                    "Color": {
+                      "Red": 164,
+                      "Green": 235,
+                      "Blue": 224
+                    },
+                    "StartX": 5.0,
+                    "StartY": 15.0,
+                    "EndX": 5.0,
+                    "EndY": 210.0,
+                    "LineWidth": 3.0,
+                    "LineEndingStyle": "Round"
+                  },
+                  {
+                    "Type": "Line",
+                    "Name": "Xaxis",
+                    "X": 129,
+                    "Y": 21,
+                    "Width": 268,
+                    "Height": 211,
+                    "Color": {
+                      "Red": 164,
+                      "Green": 235,
+                      "Blue": 224
+                    },
+                    "StartX": 5.0,
+                    "StartY": 201.0,
+                    "EndX": 260.0,
+                    "EndY": 201.0,
+                    "LineWidth": 3.0,
+                    "LineEndingStyle": "Round"
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "Values",
+                "X": -84,
+                "Y": -11,
+                "Width": 397,
+                "Height": 250,
+                "Visible": false,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaCol1",
+                    "X": 158,
+                    "Y": 22,
+                    "Width": 35,
+                    "Height": 15,
+                    "TextId": "__SingleUse_BMR7",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 17,
+                      "Green": 212,
+                      "Blue": 163
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_9SUB",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaCol2",
+                    "X": 215,
+                    "Y": 22,
+                    "Width": 35,
+                    "Height": 15,
+                    "TextId": "__SingleUse_RFWI",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 230,
+                      "Green": 25,
+                      "Blue": 230
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_5OKA",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaCol3",
+                    "X": 275,
+                    "Y": 22,
+                    "Width": 35,
+                    "Height": 15,
+                    "TextId": "__SingleUse_HSLH",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 231,
+                      "Green": 247,
+                      "Blue": 5
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_QD0C",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textAreaCol4",
+                    "X": 331,
+                    "Y": 22,
+                    "Width": 35,
+                    "Height": 15,
+                    "TextId": "__SingleUse_23TZ",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 250,
+                      "Green": 110,
+                      "Blue": 10
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_KZ9I",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "AnalogClock",
+            "Name": "analogClock1",
+            "X": -144,
+            "Y": -15,
+            "Width": 292,
+            "Height": 292,
+            "FileNameBackground": "__generated\\glass_theme_images_widgets_analogclock_backgrounds_small_plain_light.png",
+            "RotationCenterX": 146,
+            "RotationCenterY": 144,
+            "Preset": "glass_theme\\presets\\analogclock\\small_plain_light.json",
+            "UseAnimation": true,
+            "Duration": 1000,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "ClockHands": [
+              {
+                "Type": "SecondClockHand",
+                "FileNameHandImage": "__generated\\glass_theme_images_widgets_analogclock_hands_small_second_plain_light.png",
+                "RotationCenterX": 2,
+                "RotationCenterY": 88
+              },
+              {
+                "Type": "HourClockHand",
+                "FileNameHandImage": "__generated\\glass_theme_images_widgets_analogclock_hands_small_hour_plain_light.png",
+                "RotationCenterX": 9,
+                "RotationCenterY": 70
+              },
+              {
+                "Type": "MinuteClockHand",
+                "FileNameHandImage": "__generated\\glass_theme_images_widgets_analogclock_hands_small_minute_plain_light.png",
+                "RotationCenterX": 10,
+                "RotationCenterY": 87
+              }
+            ]
+          }
+        ],
+        "Interactions": []
       }
     ],
     "CustomContainerDefinitions": [],
@@ -523,7 +966,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "BarChartTickEvent",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",
